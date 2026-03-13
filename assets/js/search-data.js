@@ -447,6 +447,11 @@ ninja.data = [{
           description: "A game about being nice and cosy at home — made for Global Game Jam 2019.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cosy/";
+            },},{id: "projects-eira-39-s-potions-for-the-lost",
+          title: 'Eira&amp;#39;s Potions for the Lost',
+          description: "Help lost souls find themselves by brewing potions for them — made in 48h for Global Game Jam 2021.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/eiras_potions/";
             },},{id: "projects-harmonics",
           title: 'Harmonics',
           description: "A contemplative co-op game about forest spirits awakening flowers by singing — made in 48h for Global Game Jam 2018.",
