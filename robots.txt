@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://maepopi.github.io/sitemap.xml
+Sitemap: https://maelys-jusseaux.com/sitemap.xml
