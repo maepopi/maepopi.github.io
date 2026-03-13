@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "XR experiences, games, and research-creation projects.",
+          description: "Pipeline tools, XR experiences, games, and research-creation projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
