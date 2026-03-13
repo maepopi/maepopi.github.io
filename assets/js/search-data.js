@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "XR experiences, games, and research-creation projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -437,51 +437,41 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-alienor",
+          title: 'Alienor',
+          description: "A contemplative VR experience sitting with Eleanor of Aquitaine.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/alienor/";
+            },},{id: "projects-cosy",
+          title: 'Cosy',
+          description: "A game about being nice and cosy at home — made for Global Game Jam 2019.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/cosy/";
+            },},{id: "projects-harmonics",
+          title: 'Harmonics',
+          description: "A contemplative co-op game about forest spirits awakening flowers by singing — made in 48h for Global Game Jam 2018.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/harmonics/";
+            },},{id: "projects-kintsukuroi",
+          title: 'Kintsukuroi',
+          description: "A beautiful exploration game about healing — environment design for Global Game Jam 2020.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/kintsukuroi/";
+            },},{id: "projects-mona-vr",
+          title: 'Mona VR',
+          description: "A humorous VR simulator of the real Mona Lisa queue experience at the Louvre.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/monavr/";
+            },},{id: "projects-mon-petit-atelier-de-destruction-du-patrimoine",
+          title: 'Mon Petit Atelier de Destruction du Patrimoine',
+          description: "A VR museum where you can scan objects to learn about them — and smash them.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/padp/";
+            },},{id: "projects-traces",
+          title: 'Traces',
+          description: "A contemplative VR experience about Cultural Heritage, disappearance, and survival.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/traces/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
