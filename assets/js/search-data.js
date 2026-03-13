@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-communications",
+          title: "communications",
+          description: "Conference communications and presentations, in reversed chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/communications/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
@@ -43,6 +50,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-websites",
+          title: "websites",
+          description: "External profiles and web presence.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/websites/";
           },
         },{id: "post-a-post-with-plotly-js",
         
