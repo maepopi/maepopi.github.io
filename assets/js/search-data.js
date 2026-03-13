@@ -462,6 +462,11 @@ ninja.data = [{
           description: "A beautiful exploration game about healing — environment design for Global Game Jam 2020.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/kintsukuroi/";
+            },},{id: "projects-mémoires-gothiques",
+          title: 'Mémoires Gothiques',
+          description: "A VR exploration of gothic cathedral polychromy across two centuries.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/memoires/";
             },},{id: "projects-mona-vr",
           title: 'Mona VR',
           description: "A humorous VR simulator of the real Mona Lisa queue experience at the Louvre.",
