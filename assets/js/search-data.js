@@ -462,6 +462,11 @@ ninja.data = [{
           description: "A custom ComfyUI node that brings the full Hugging Face Diffusers pipeline into ComfyUI workflows.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diffusers-in-comfyui/";
+            },},{id: "projects-dreamcatcher",
+          title: 'Dreamcatcher',
+          description: "A VR Unreal application where you must flee through shifting environments — finding masks to escape the entity hunting you.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dreamcatcher/";
             },},{id: "projects-eira-39-s-potions-for-the-lost",
           title: 'Eira&amp;#39;s Potions for the Lost',
           description: "Help lost souls find themselves by brewing potions for them — made in 48h for Global Game Jam 2021.",
@@ -492,6 +497,11 @@ ninja.data = [{
           description: "A VR exploration of gothic cathedral polychromy across two centuries.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/memoires/";
+            },},{id: "projects-merveilles-de-l-39-atelier-d-39-andré-breton",
+          title: 'Merveilles de l&amp;#39;Atelier d&amp;#39;André Breton',
+          description: "A Unity application for the Centre Pompidou — 3D scans of objects from André Breton&#39;s studio, exhibited in the museum.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/merveilles/";
             },},{id: "projects-mona-vr",
           title: 'Mona VR',
           description: "A humorous VR simulator of the real Mona Lisa queue experience at the Louvre.",
@@ -502,6 +512,11 @@ ninja.data = [{
           description: "A VR museum where you can scan objects to learn about them — and smash them.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/padp/";
+            },},{id: "projects-resilience",
+          title: 'Resilience',
+          description: "A virtual exhibition of a fictive artist, where each artwork reveals traces and echoes of her life.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/resilience/";
             },},{id: "projects-traces",
           title: 'Traces',
           description: "A contemplative VR experience about Cultural Heritage, disappearance, and survival.",
