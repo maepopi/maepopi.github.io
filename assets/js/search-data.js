@@ -442,11 +442,26 @@ ninja.data = [{
           description: "A contemplative VR experience sitting with Eleanor of Aquitaine.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/alienor/";
+            },},{id: "projects-audio-dataset-manager",
+          title: 'Audio Dataset Manager',
+          description: "An all-in-one tool for preparing audiobooks and large audio files for TTS training and voice cloning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/audio-dataset-manager/";
+            },},{id: "projects-automatic-bakemyscan",
+          title: 'Automatic BakeMyScan',
+          description: "A standalone Blender automation tool for batch mesh decimation and baking, launchable via a batch script.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/automatic-bakemyscan/";
             },},{id: "projects-cosy",
           title: 'Cosy',
           description: "A game about being nice and cosy at home — made for Global Game Jam 2019.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cosy/";
+            },},{id: "projects-diffusers-in-comfyui",
+          title: 'Diffusers in ComfyUI',
+          description: "A custom ComfyUI node that brings the full Hugging Face Diffusers pipeline into ComfyUI workflows.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/diffusers-in-comfyui/";
             },},{id: "projects-eira-39-s-potions-for-the-lost",
           title: 'Eira&amp;#39;s Potions for the Lost',
           description: "Help lost souls find themselves by brewing potions for them — made in 48h for Global Game Jam 2021.",
@@ -457,11 +472,21 @@ ninja.data = [{
           description: "A contemplative co-op game about forest spirits awakening flowers by singing — made in 48h for Global Game Jam 2018.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/harmonics/";
+            },},{id: "projects-hunyuandit-image-to-image",
+          title: 'HunyuanDiT Image-to-Image',
+          description: "Extends the HunyuanDiT text-to-image pipeline with image-to-image and image+text generation, including negative prompt support.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hunyuan-img2img/";
             },},{id: "projects-kintsukuroi",
           title: 'Kintsukuroi',
           description: "A beautiful exploration game about healing — environment design for Global Game Jam 2020.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/kintsukuroi/";
+            },},{id: "projects-llm-trainer",
+          title: 'LLM Trainer',
+          description: "A Gradio app to easily fine-tune large language models with LoRA — built to make LLM training accessible.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llm-trainer/";
             },},{id: "projects-mémoires-gothiques",
           title: 'Mémoires Gothiques',
           description: "A VR exploration of gothic cathedral polychromy across two centuries.",
