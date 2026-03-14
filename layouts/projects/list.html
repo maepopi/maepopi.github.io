@@ -5,7 +5,7 @@
     </section>
 
     {{/* Group pages by category, sorted by date desc within each */}}
-    {{ $pages := .Pages | collections.Sort "Date" "desc" }}
+    {{ $pages := .Pages.ByDate.Reverse }}
     {{ $categoryOrder := slice "AI Tools" "XR & VR" "Cultural Heritage" "Games" }}
 
     <section class="mw8 center ph3 ph5-l pb4">

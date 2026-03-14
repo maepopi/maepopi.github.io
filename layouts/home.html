@@ -14,8 +14,8 @@
 
   {{ $mainSections := site.Params.mainSections | compare.Default (collections.Slice "post") }}
   {{ $allProjects := collections.Where $.Site.RegularPages "Section" "in" $mainSections }}
-  {{ $featured := where $allProjects ".Params.featured" true | collections.Sort "Date" "desc" }}
-  {{ $allSorted := $allProjects | collections.Sort "Date" "desc" }}
+  {{ $featured := (where $allProjects ".Params.featured" true).ByDate.Reverse }}
+  {{ $allSorted := $allProjects.ByDate.Reverse }}
 
   {{ if compare.Ge (len $allProjects) 1 }}
     <div class="pa3 pa4-ns w-100 mw8 center">
