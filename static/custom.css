@@ -47,25 +47,27 @@ main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
 .profile-section {
   display: flex;
   gap: 2rem;
-  align-items: stretch;
+  align-items: flex-start;
   margin-bottom: 2rem;
 }
 .profile-section img {
   border-radius: 6px;
-  width: auto;
-  height: 100%;
-  min-width: 160px;
-  max-width: 220px;
-  object-fit: contain;
-  object-position: top center;
+  width: 220px;
+  height: auto;
   flex-shrink: 0;
   border: 3px solid #E07828;
   display: block;
-  align-self: stretch;
+  margin: 0;
+  padding: 0;
 }
 .profile-section > div {
   text-align: justify;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
+}
+.profile-section > div > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* ── Tech stack badges ──────────────────────────── */
