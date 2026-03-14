@@ -1,4 +1,5 @@
 ---
+date: "2021-01-28"
 title: "Eira's Potions for the Lost"
 description: "Help lost souls find themselves by brewing potions for them — made in 48h for Global Game Jam 2021."
 background_color_class: "bg-red"

@@ -1,4 +1,5 @@
 ---
+date: "2024-06-01"
 title: "Diffusers in ComfyUI"
 description: "A custom ComfyUI node that brings the full Hugging Face Diffusers pipeline into ComfyUI workflows."
 background_color_class: "bg-orange"

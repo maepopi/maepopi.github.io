@@ -1,4 +1,5 @@
 ---
+date: "2018-06-01"
 title: "Resilience"
 description: "A virtual exhibition of a fictive artist, where each artwork reveals traces and echoes of her life. (2018)"
 background_color_class: "bg-dark-red"

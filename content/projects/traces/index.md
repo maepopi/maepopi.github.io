@@ -1,4 +1,6 @@
 ---
+date: "2023-03-01"
+featured: true
 title: "Traces"
 description: "A contemplative VR experience about Cultural Heritage, disappearance, and survival. (2020)"
 background_color_class: "bg-gold"

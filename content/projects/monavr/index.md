@@ -1,4 +1,5 @@
 ---
+date: "2020-06-01"
 title: "Mona VR"
 description: "A humorous VR simulator of the real Mona Lisa queue experience at the Louvre. (2020)"
 background_color_class: "bg-gold"

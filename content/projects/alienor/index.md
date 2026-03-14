@@ -1,4 +1,6 @@
 ---
+date: "2019-06-01"
+featured: true
 title: "Alienor"
 description: "A contemplative VR experience sitting with Eleanor of Aquitaine. (2019)"
 background_color_class: "bg-dark-red"
