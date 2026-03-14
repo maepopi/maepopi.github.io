@@ -19,6 +19,8 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 
 ---
 
+<div class="tech-stack-section">
+
 ## 🛠️ Tech Stack
 
 **AI & ML**
@@ -93,3 +95,5 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
 </p>
+
+</div>
