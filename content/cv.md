@@ -1,6 +1,7 @@
 ---
 title: "CV"
 description: "Generative AI · 3D & XR · Computer Vision Research Engineer — Paris, France"
+featured_image: "/img/projects/alienor/fMyHGJ.jpg"
 showTableOfContents: true
 ---
 

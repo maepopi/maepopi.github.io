@@ -13,3 +13,8 @@
   name = "CV"
   pageRef = "cv"
   weight = 30
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 40
