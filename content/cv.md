@@ -6,11 +6,11 @@ showTableOfContents: true
 ---
 
 <p class="mb4">
-  <a href="/pdf/Maelys_2026_Pro.pdf" download class="link">📄 Download CV (PDF)</a>
+  <a href="/pdf/Maelys_2026_pro.pdf" download class="link">📄 Download CV (PDF)</a>
 </p>
 
-<object data="/pdf/Maelys_2026_Pro.pdf" type="application/pdf" width="100%" height="800" style="border: 1px solid #5A1818; border-radius: 6px; min-height: 70vh;" title="CV Maëlys Jusseaux">
-  <p>Your browser does not support PDF embedding. <a href="/pdf/Maelys_2026_Pro.pdf">Download the CV (PDF)</a>.</p>
+<object data="/pdf/Maelys_2026_pro.pdf" type="application/pdf" width="100%" height="800" style="border: 1px solid #5A1818; border-radius: 6px; min-height: 70vh;" title="CV Maëlys Jusseaux">
+  <p>Your browser does not support PDF embedding. <a href="/pdf/Maelys_2026_pro.pdf">Download the CV (PDF)</a>.</p>
 </object>
 
 ---
