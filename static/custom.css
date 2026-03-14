@@ -86,19 +86,22 @@ header[style*="background-image"] > div > div {
   padding-top: 0.75rem !important;
   padding-bottom: 0.75rem !important;
 }
-header[style*="background-image"] * { color: white !important; }
-header[style*="background-image"] a { color: white !important; }
+header[style*="background-image"] * { color: #FFD8B0 !important; }
+header[style*="background-image"] a { color: #FFD8B0 !important; }
 
 /* Solid-colour fallback branch (no featured_image on page) */
 header > div[class*="bg-"] {
   padding-bottom: 0 !important;
 }
-header > div[class*="bg-"] * { color: white !important; }
-header > div[class*="bg-"] a { color: white !important; }
+header > div[class*="bg-"] * { color: #FFD8B0 !important; }
+header > div[class*="bg-"] a { color: #FFD8B0 !important; }
 
 /* Shrink Tachyons large-screen bottom padding on headers */
 .pb6-l { padding-bottom: 0.75rem !important; }
 
 /* Override Tachyons near-white opacity */
-.white-90 { color: #ffffff !important; opacity: 1 !important; }
-.white-80 { color: #ffffff !important; opacity: 1 !important; }
+.white-90 { color: #FFD8B0 !important; opacity: 1 !important; }
+.white-80 { color: #FFD8B0 !important; opacity: 1 !important; }
+
+/* Hide site title link in nav (top-left "Maëlys Jusseaux") */
+header nav a.f3 { display: none !important; }
