@@ -16,17 +16,17 @@ Any pictures or selfies you take are saved in the "Pics" folder next to the game
 Made with [Charlotte](https://glitchoris.itch.io).
 
     
-        ![](/img/projects/mona/IY1PY1.png "Mona VR")
+![](/img/projects/mona/IY1PY1.png "Mona VR")
     
     
-        ![](/img/projects/mona/SmfTft.png "Mona VR")
+![](/img/projects/mona/SmfTft.png "Mona VR")
     
     
-        ![](/img/projects/mona/VcjAt0.png "Mona VR")
+![](/img/projects/mona/VcjAt0.png "Mona VR")
     
 
     
-        ![](/img/projects/mona/Wm447N.png "Mona VR")
+![](/img/projects/mona/Wm447N.png "Mona VR")
     
 
     

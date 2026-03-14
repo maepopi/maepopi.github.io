@@ -15,20 +15,20 @@ Made with [Charlotte](https://glitchoris.itch.io), who made the FX.
 **Presented at:** Colloque-exposition *Valeurs de l'Empreinte*, Université Lumière Lyon II, March 2023.
 
     
-        ![](/img/projects/traces/lyXBvW.jpg "Traces — desert landscape")
+![](/img/projects/traces/lyXBvW.jpg "Traces — desert landscape")
     
     
-        ![](/img/projects/traces/HiWZWY.jpg "Traces — ruined room")
+![](/img/projects/traces/HiWZWY.jpg "Traces — ruined room")
     
     
-        ![](/img/projects/traces/cpxEiG.jpg "Traces — stone figures")
+![](/img/projects/traces/cpxEiG.jpg "Traces — stone figures")
     
 
     
-        ![](/img/projects/traces/je8lSz.jpg "Traces")
+![](/img/projects/traces/je8lSz.jpg "Traces")
     
     
-        ![](/img/projects/traces/vNwjDZ.jpg "Traces")
+![](/img/projects/traces/vNwjDZ.jpg "Traces")
     
     
 

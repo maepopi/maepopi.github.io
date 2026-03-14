@@ -12,20 +12,20 @@ You play as a pair of forest spirits that can explore various places on a magica
 Ideally the game is co-op: one player controls the movement with a joystick, and one controls the singing by playing bass at a microphone.
 
     
-        ![](/img/projects/harmonics/JB6H2V.png "Harmonics — green world")
+![](/img/projects/harmonics/JB6H2V.png "Harmonics — green world")
     
     
-        ![](/img/projects/harmonics/Kp2XwW.png "Harmonics")
+![](/img/projects/harmonics/Kp2XwW.png "Harmonics")
     
     
-        ![](/img/projects/harmonics/XYG7bx.png "Harmonics")
+![](/img/projects/harmonics/XYG7bx.png "Harmonics")
     
 
     
-        ![](/img/projects/harmonics/zMVFa4.png "Harmonics")
+![](/img/projects/harmonics/zMVFa4.png "Harmonics")
     
     
-        ![](/img/projects/harmonics/zTVLpB.png "Harmonics")
+![](/img/projects/harmonics/zTVLpB.png "Harmonics")
     
     
 

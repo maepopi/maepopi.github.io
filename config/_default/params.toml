@@ -1,4 +1,5 @@
 description = "R&D Engineer · Generative AI · 3D & XR · Computer Vision"
+favicon = "/favicon.jpg"
 body_classes = "ubuntu bg-near-black"
 text_color = "near-white"
 background_color_class = "bg-dark-red"

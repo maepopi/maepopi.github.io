@@ -11,8 +11,15 @@ This project explores the concept of sacredness and cultural heritage. What does
 
 **Requirements:** VR headset (tested with HTC Vive and Vive Pro, SteamVR). Minimal play area of 2.5m × 2m.
 
-<img src="/assets/img/projects/atelier/rlX-Yh.png" class="img-fluid rounded z-depth-1 w-75 mb-4" alt="Mon Petit Atelier de Destruction du Patrimoine">
+![](/img/projects/atelier/rlX-Yh.png "PADP — museum")
+![](/img/projects/atelier/006.png "PADP — gallery")
+![](/img/projects/atelier/salle2.png "PADP — room")
 
-  <iframe src="https://www.youtube.com/embed/kAKN7u44Tds" title="Mon Petit Atelier de Destruction du Patrimoine" allowfullscreen></iframe>
+![](/img/projects/atelier/ceramique_statues.png "PADP — ceramics")
+![](/img/projects/atelier/epee2.png "PADP — sword")
+![](/img/projects/atelier/monachassis.png "PADP — chassis")
+![](/img/projects/atelier/capture_interdictions.png "PADP — forbidden")
+
+<iframe src="https://www.youtube.com/embed/kAKN7u44Tds" title="Mon Petit Atelier de Destruction du Patrimoine" allowfullscreen></iframe>
 
 [View on itch.io](https://maelysjusseaux.itch.io/destruction)

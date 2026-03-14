@@ -10,30 +10,30 @@ background_color_class: "bg-red"
 A selection of objects from André Breton's personal studio were **3D scanned, optimized and integrated** into an interactive Unity application. The application is currently **exhibited at the Centre Pompidou** in Paris. The 3D models are also available on my [Sketchfab account](https://sketchfab.com/MaelysJusseaux).
 
   
-    ![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-21-44.png "Merveilles — object view")
+![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-21-44.png "Merveilles — object view")
   
   
-    ![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-21-53.png "Merveilles — object view")
+![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-21-53.png "Merveilles — object view")
   
   
-    ![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-22-10.png "Merveilles — object view")
-  
-
-  
-    ![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-22-29.png "Merveilles — object view")
-  
-  
-    ![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-22-39.png "Merveilles — object view")
-  
-  
-    ![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-23-40.png "Merveilles — object view")
+![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-22-10.png "Merveilles — object view")
   
 
   
-    ![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-25-00.png "Merveilles — object view")
+![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-22-29.png "Merveilles — object view")
   
   
-    ![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-25-07.png "Merveilles — object view")
+![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-22-39.png "Merveilles — object view")
   
   
-    ![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-25-15.png "Merveilles — object view")
+![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-23-40.png "Merveilles — object view")
+  
+
+  
+![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-25-00.png "Merveilles — object view")
+  
+  
+![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-25-07.png "Merveilles — object view")
+  
+  
+![](/img/projects/andrebreton/Screenshot_from_2026-03-14_00-25-15.png "Merveilles — object view")

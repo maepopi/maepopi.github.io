@@ -20,23 +20,23 @@ Made in 48h with [Charlotte RGB](https://glitchoris.itch.io) for [Global Game Ja
 **Controls:** Move — WASD / Arrow Keys / Left Joystick · Action — Spacebar / controller face button
 
     
-        ![](/img/projects/eira/RzKrcQ.png "Eira's Potions — lakeside")
+![](/img/projects/eira/RzKrcQ.png "Eira's Potions — lakeside")
     
     
-        ![](/img/projects/eira/7bXFL6.png "Eira's Potions — witch")
+![](/img/projects/eira/7bXFL6.png "Eira's Potions — witch")
     
     
-        ![](/img/projects/eira/SgWq0a.png "Eira's Potions")
+![](/img/projects/eira/SgWq0a.png "Eira's Potions")
     
 
     
-        ![](/img/projects/eira/qVzZ0a.png "Eira's Potions")
+![](/img/projects/eira/qVzZ0a.png "Eira's Potions")
     
     
-        ![](/img/projects/eira/uOx-p5.png "Eira's Potions")
+![](/img/projects/eira/uOx-p5.png "Eira's Potions")
     
     
-        ![](/img/projects/eira/wbE9vk.png "Eira's Potions")
+![](/img/projects/eira/wbE9vk.png "Eira's Potions")
     
 
     

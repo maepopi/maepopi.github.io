@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XR &amp; VR on Maëlys Jusseaux</title>
+    <link>http://localhost:1313/categories/xr--vr/</link>
+    <description>Recent content in XR &amp; VR on Maëlys Jusseaux</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/xr--vr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traces</title>
+      <link>http://localhost:1313/projects/traces/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/traces/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Traces&lt;/em&gt; is a project made in the framework of my PhD thesis about XR technologies, art and Cultural Heritage. It&amp;rsquo;s a contemplative experience where you find yourself in a ruined environment, where you have only fragments and hidden elements that allow you to restitute the story of the beings who lived there.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mon Petit Atelier de Destruction du Patrimoine</title>
+      <link>http://localhost:1313/projects/padp/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/padp/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Mon Petit Atelier de Destruction du Patrimoine&lt;/em&gt; (&amp;ldquo;My Little Heritage Destruction Workshop&amp;rdquo;), or PADP for short, is a VR game where you get to visit a virtual museum. You can scan the objects with a tablet, to acquire knowledge about them, grab them to observe them more closely&amp;hellip; and smash them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mona VR</title>
+      <link>http://localhost:1313/projects/monavr/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/monavr/</guid>
+      <description>&lt;p&gt;Since October 2019, the extraordinary fame of Mona Lisa has pushed the Musée du Louvre to implement additional safety measures — visitors now have to queue through barriers to see the painting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alienor</title>
+      <link>http://localhost:1313/projects/alienor/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/alienor/</guid>
+      <description>&lt;p&gt;This project was made in the framework of a PhD thesis. It aimed at exploring my own imaginary projected upon the Middle Ages. It&amp;rsquo;s a contemplative experience where you can sit next to Eleanor of Aquitaine, as though she was reading you a story while her minstrels are gently playing music.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dreamcatcher</title>
+      <link>http://localhost:1313/projects/dreamcatcher/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/dreamcatcher/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Dreamcatcher&lt;/em&gt; was made with &lt;strong&gt;Juliette Schmidt&lt;/strong&gt; and &lt;strong&gt;Thi Nguyen&lt;/strong&gt; as a school project.&lt;/p&gt;&#xA;&lt;p&gt;It is a VR application built in &lt;strong&gt;Unreal Engine&lt;/strong&gt;. The player must flee through several shifting environments. In each one, they must find a mask and physically put it on — literally — in order to escape the entity relentlessly chasing them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

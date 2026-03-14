@@ -1,0 +1,174 @@
+/* Ubuntu font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+/* Apply Ubuntu everywhere */
+*, *::before, *::after,
+body, h1, h2, h3, h4, h5, h6,
+p, a, li, td, th, blockquote, pre, code,
+input, textarea, button, select, label,
+.ubuntu {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+/* ── Dark warm background ───────────────────────── */
+.bg-near-black { background-color: #1A0505 !important; }
+body { background-color: #1A0505; color: #F5E8D5; }
+
+/* ── Warm header/hero backgrounds ──────────────── */
+.bg-dark-red { background-color: #7A1508 !important; }
+.bg-red       { background-color: #A32200 !important; }
+.bg-gold      { background-color: #9A4E00 !important; }
+.bg-orange    { background-color: #B04008 !important; }
+
+/* ── Text colours ───────────────────────────────── */
+.near-white, .mid-gray { color: #F5E8D5 !important; }
+.dark-gray, .gray      { color: #DDD0BC !important; }
+.black, .near-black    { color: #F5E8D5 !important; }
+h1, h2, h3, h4, h5    { color: #FFD8B0; }
+
+/* ── Links ──────────────────────────────────────── */
+a, .link { color: #E07828 !important; }
+a:hover, .link:hover, .dim:hover { color: #F5A050 !important; opacity: 1 !important; }
+
+/* ── Article/card backgrounds (dark) ───────────── */
+.bg-white, article.bb { background-color: #2A0808 !important; }
+.bg-light-gray        { background-color: #3A1010 !important; }
+article.bb            { border-color: #5A1818 !important; }
+
+/* ── Centered content with side margins ─────────── */
+.measure-wide { max-width: 48rem !important; }
+.mw7          { max-width: 52rem !important; }
+.mw8          { max-width: 60rem !important; }
+.w-70-ns      { width: 70% !important; }
+/* Constrain main content and center it */
+main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
+
+/* ── Profile section on homepage ───────────────── */
+.profile-section {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.profile-section img {
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid #E07828;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.profile-section > div {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+.profile-section > div > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* ── Tech stack section ─────────────────────────── */
+.tech-stack-section {
+  background-color: #2A0808;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+/* ── Tech stack badges ──────────────────────────── */
+p img { display: inline-block; margin: 2px 3px; vertical-align: middle; }
+
+/* ── Section headings ───────────────────────────── */
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #E07828;
+  border-bottom: 2px solid #7A1508;
+  padding-bottom: 0.5rem;
+  margin: 2rem 0 1.5rem;
+}
+
+/* ── Category separators on projects page ───────── */
+.category-separator {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+.category-separator::before,
+.category-separator::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(to right, #7A1508, #E07828, #7A1508);
+  opacity: 0.6;
+}
+.category-label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #E07828;
+  white-space: nowrap;
+  padding: 0.2rem 1rem;
+  border: 1px solid #7A1508;
+  border-radius: 4px;
+}
+
+/* ── Pagination buttons ──────────────────────────── */
+.ba.b--moon-gray { border-color: #5A2E18 !important; }
+.hover-bg-moon-gray:hover { background-color: #3A1E0E !important; }
+
+/* Pagination: black bg, orange text/border — scoped to footer pagination only */
+.pagination a,
+[class*="pagination"] a {
+  background-color: #0A0000 !important;
+  color: #E07828 !important;
+  border-color: #E07828 !important;
+  border-radius: 4px;
+}
+.pagination a:hover,
+[class*="pagination"] a:hover {
+  background-color: #2A0808 !important;
+  color: #F5A050 !important;
+}
+.pagination span,
+[class*="pagination"] span {
+  color: #E07828 !important;
+}
+
+/* ── Footer ─────────────────────────────────────── */
+footer { background-color: #0F0303 !important; color: #D4B8A0 !important; }
+
+/* ── Hero banner: smaller height + white text ───── */
+/* Reduce banner overlay darkness so image shows through more */
+.bg-black-60 { background-color: rgba(0,0,0,0.45) !important; }
+
+/* Image-banner branch */
+header[style*="background-image"] > div > div {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+header[style*="background-image"] * { color: #FFD8B0 !important; }
+header[style*="background-image"] a { color: #FFD8B0 !important; }
+
+/* Solid-colour fallback branch (no featured_image on page) */
+header > div[class*="bg-"] {
+  padding-bottom: 0 !important;
+}
+header > div[class*="bg-"] * { color: #FFD8B0 !important; }
+header > div[class*="bg-"] a { color: #FFD8B0 !important; }
+
+/* Shrink Tachyons large-screen bottom padding on headers */
+.pb6-l { padding-bottom: 0.75rem !important; }
+
+/* Override Tachyons near-white opacity */
+.white-90 { color: #FFD8B0 !important; opacity: 1 !important; }
+.white-80 { color: #FFD8B0 !important; opacity: 1 !important; }
+
+/* Hide site title link in nav (top-left "Maëlys Jusseaux") */
+header nav a.f3 { display: none !important; }

@@ -12,13 +12,13 @@ A spirit has hatched, but this ordeal put it in a bad state. Explore a beautiful
 Made for [Global Game Jam 2020](https://globalgamejam.org/2020/): *Repair*. Programming and character graphics by Charlotte. Environment by Maëlys Jusseaux and Camille Couturier. Music by Chad Crouch on Free Music Archive.
 
     
-        ![](/img/projects/kintsukuroi/VcPwHa.jpg "Kintsukuroi — character art")
+![](/img/projects/kintsukuroi/VcPwHa.jpg "Kintsukuroi — character art")
     
     
-        ![](/img/projects/kintsukuroi/8AUPo1.jpg "Kintsukuroi — green world")
+![](/img/projects/kintsukuroi/8AUPo1.jpg "Kintsukuroi — green world")
     
     
-        ![](/img/projects/kintsukuroi/nciiNa.jpg "Kintsukuroi")
+![](/img/projects/kintsukuroi/nciiNa.jpg "Kintsukuroi")
     
 
 [View on itch.io](https://glitchoris.itch.io/kintsukuroi)
