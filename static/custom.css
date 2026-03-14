@@ -35,11 +35,13 @@ a:hover, .link:hover, .dim:hover { color: #F5A050 !important; opacity: 1 !import
 .bg-light-gray        { background-color: #3A1010 !important; }
 article.bb            { border-color: #5A1818 !important; }
 
-/* ── Wider content — remove narrow measure ──────── */
-.measure-wide { max-width: 52rem !important; }
-.mw7          { max-width: 64rem !important; }
-.mw8          { max-width: 80rem !important; }
-.w-70-ns      { width: 90% !important; }
+/* ── Centered content with side margins ─────────── */
+.measure-wide { max-width: 48rem !important; }
+.mw7          { max-width: 52rem !important; }
+.mw8          { max-width: 60rem !important; }
+.w-70-ns      { width: 70% !important; }
+/* Constrain main content and center it */
+main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
 
 /* ── Profile section on homepage ───────────────── */
 .profile-section {
