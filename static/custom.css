@@ -12,7 +12,7 @@ input, textarea, button, select, label,
 
 /* ── Dark warm background ───────────────────────── */
 .bg-near-black { background-color: #1A0505 !important; }
-body { background-color: #1A0505; color: #FFD8B0; }
+body { background-color: #1A0505; color: #F5E8D5; }
 
 /* ── Warm header/hero backgrounds ──────────────── */
 .bg-dark-red { background-color: #7A1508 !important; }
@@ -21,9 +21,9 @@ body { background-color: #1A0505; color: #FFD8B0; }
 .bg-orange    { background-color: #B04008 !important; }
 
 /* ── Text colours ───────────────────────────────── */
-.near-white, .mid-gray { color: #FFD8B0 !important; }
-.dark-gray, .gray      { color: #E0B888 !important; }
-.black, .near-black    { color: #FFD8B0 !important; }
+.near-white, .mid-gray { color: #F5E8D5 !important; }
+.dark-gray, .gray      { color: #DDD0BC !important; }
+.black, .near-black    { color: #F5E8D5 !important; }
 h1, h2, h3, h4, h5    { color: #FFD8B0; }
 
 /* ── Links ──────────────────────────────────────── */
