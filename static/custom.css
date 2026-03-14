@@ -172,3 +172,54 @@ header > div[class*="bg-"] a { color: #FFD8B0 !important; }
 
 /* Hide site title link in nav (top-left "Maëlys Jusseaux") */
 header nav a.f3 { display: none !important; }
+
+/* ── Mobile responsiveness ───────────────────────── */
+@media (max-width: 640px) {
+  /* Profile: stack vertically, image on top with constrained size */
+  .profile-section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .profile-section img {
+    max-width: 200px;
+    max-height: 260px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+  .profile-section > div {
+    text-align: left;
+  }
+
+  /* Tech stack: reduce padding on small screens */
+  .tech-stack-section {
+    padding: 1rem 1rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    border-radius: 6px;
+  }
+  .tech-stack-section h2, .tech-stack-section h3 {
+    font-size: 1.1rem;
+  }
+  .tech-stack-section p img {
+    margin: 2px;
+  }
+
+  /* Category labels: allow wrap on very narrow screens */
+  .category-label {
+    white-space: normal;
+    font-size: 0.95rem;
+  }
+  .category-separator {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  /* Main content: reduce horizontal padding on home and project pages */
+  main article.ph3,
+  main .ph5-l {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
