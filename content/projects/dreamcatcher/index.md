@@ -21,8 +21,4 @@ It is a VR application built in **Unreal Engine**. The player must flee through 
 
 ---
 
-<div style="max-width: 560px; margin: 1rem auto;">
-  <video controls style="width: 100%; border-radius: 4px;">
-    <source src="/assets/video/dreamcatcher/dreamcatcher_vr_v1_1080p.mp4" type="video/mp4">
-  </video>
-</div>
+{{< video src="/assets/video/dreamcatcher/dreamcatcher_vr_v1_1080p.mp4" >}}

@@ -1,0 +1,7 @@
+{{ $src := .Get "src" }}
+{{ $maxWidth := .Get "maxwidth" | default "560px" }}
+<div style="max-width: {{ $maxWidth }}; margin: 1rem auto;">
+  <video controls style="width: 100%; border-radius: 4px;">
+    <source src="{{ $src }}" type="video/mp4">
+  </video>
+</div>
