@@ -56,6 +56,12 @@ main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
   height: auto;
   flex-shrink: 0;
   border: 3px solid #E07828;
+  display: block;
+  margin-top: 0;
+}
+.profile-section > div {
+  text-align: justify;
+  padding-top: 0;
 }
 
 /* ── Tech stack badges ──────────────────────────── */
