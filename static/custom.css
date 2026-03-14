@@ -123,8 +123,7 @@ p img { display: inline-block; margin: 2px 3px; vertical-align: middle; }
 .ba.b--moon-gray { border-color: #5A2E18 !important; }
 .hover-bg-moon-gray:hover { background-color: #3A1E0E !important; }
 
-/* Pagination: black bg, orange text/border */
-nav[role="navigation"] a,
+/* Pagination: black bg, orange text/border — scoped to footer pagination only */
 .pagination a,
 [class*="pagination"] a {
   background-color: #0A0000 !important;
@@ -132,13 +131,11 @@ nav[role="navigation"] a,
   border-color: #E07828 !important;
   border-radius: 4px;
 }
-nav[role="navigation"] a:hover,
 .pagination a:hover,
 [class*="pagination"] a:hover {
   background-color: #2A0808 !important;
   color: #F5A050 !important;
 }
-nav[role="navigation"] span,
 .pagination span,
 [class*="pagination"] span {
   color: #E07828 !important;
