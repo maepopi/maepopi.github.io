@@ -79,14 +79,40 @@ Thesis: *The Numinous Heritage Experience* — eliciting transcendence through i
 
 ## Skills
 
-**AI & ML** · PyTorch · TensorFlow · Keras · HuggingFace · Diffusers · Transformers · Gradio · ComfyUI
+### AI Development
 
-**Generative AI** · Stable Diffusion · Flux · Wan 2.2 · LoRAs · BLoRAs · IPAdapters · Condeltas
+**Frameworks & Tooling** · PyTorch · TensorFlow · Keras · ComfyUI · Kohya-SS · Gradio · Diffusers · Transformers
 
-**Voice & Audio** · Tortoise-TTS · Coqui XTTS2 · Zonos · Index-TTS2
+**Image & Video Generation** · Stable Diffusion · Flux · Wan 2.2 · Bytedance Seedream API · LoRAs · BLoRAs · IPAdapters · Condeltas
 
-**3D & Scanning** · Blender · Maya · ZBrush · RealityCapture · Metashape · Meshroom · Substance Suite
+**Text Generation** · Open-webui · Gemini API · OpenAI API · Florence · Moondream · Deepseek
 
-**XR** · Unity · Unreal Engine · Godot · HoloLens · Meta Quest · HTC Vive
+**Voice Generation** · Tortoise-TTS · Zonos · Index-TTS2 · Coqui XTTS2
 
-**Programming** · Python · C++ · JavaScript · Lua · Java · LaTeX · Git · Docker · Linux
+**3D Generation & Segmentation** · Hunyuan · Trellis · Tripo · Partpacker · Craftsman3D · SAMesh · HunyuanPart3D · Omnipart · PartField · SAMPart3D
+
+### Programming
+
+**Languages (Mid)** · Python · LaTeX · Markdown
+
+**Languages (Junior)** · C++ · MEL · Lua · Java · JavaScript
+
+**Platforms** · Linux · Windows · MacOS
+
+**Versioning & Development** · Git · Docker · Conda · UV
+
+### Digital Creation
+
+**3D** · Blender · Maya · ZBrush · Mudbox · 3DCoat
+
+**Scan** · RealityCapture · Metashape · Meshroom · LumaAI
+
+**2D** · Photoshop · Krita · Substance Suite · AwesomeBump · XNormal
+
+**Video** · Premiere · After Effects · Kdenlive · Olive Editor
+
+### XR Development
+
+**Engines** · Godot · Unity · Unreal Engine
+
+**Hardware** · HoloLens · MagicLeap · Meta Quest/Rift · HTC Vive/Vive Pro · WMR (Lenovo, Dell)
