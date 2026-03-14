@@ -49,11 +49,14 @@ main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
   grid-template-columns: 220px 1fr;
   gap: 2rem;
   margin-bottom: 2rem;
+  align-items: start;
 }
 .profile-section img {
   border-radius: 6px;
   width: 100%;
-  height: 100%;
+  max-width: 220px;
+  height: auto;
+  min-height: 200px;
   object-fit: cover;
   object-position: center top;
   border: 3px solid #E07828;
@@ -65,6 +68,7 @@ main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
   text-align: justify;
   margin: 0;
   padding: 0;
+  min-width: 0; /* allow grid item to shrink below content size */
 }
 .profile-section > div > *:first-child {
   margin-top: 0 !important;
@@ -174,51 +178,57 @@ header > div[class*="bg-"] a { color: #FFD8B0 !important; }
 header nav a.f3 { display: none !important; }
 
 /* ── Mobile responsiveness ───────────────────────── */
-@media (max-width: 640px) {
-  /* Profile: stack vertically, image on top with constrained size */
+@media screen and (max-width: 768px) {
+  /* Profile: stack vertically, small centered image, full-width text */
   .profile-section {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    margin-bottom: 1.5rem !important;
   }
   .profile-section img {
-    max-width: 200px;
-    max-height: 260px;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
+    width: 160px !important;
+    max-width: 160px !important;
+    height: 200px !important;
+    max-height: 200px !important;
+    min-height: unset !important;
+    object-fit: cover !important;
+    flex-shrink: 0 !important;
   }
   .profile-section > div {
-    text-align: left;
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: left !important;
+    flex: 1 1 auto !important;
   }
 
   /* Tech stack: reduce padding on small screens */
   .tech-stack-section {
-    padding: 1rem 1rem;
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-    border-radius: 6px;
+    padding: 1rem !important;
+    margin-left: -0.5rem !important;
+    margin-right: -0.5rem !important;
+    border-radius: 6px !important;
   }
   .tech-stack-section h2, .tech-stack-section h3 {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
   .tech-stack-section p img {
-    margin: 2px;
+    margin: 2px !important;
   }
 
   /* Category labels: allow wrap on very narrow screens */
   .category-label {
-    white-space: normal;
-    font-size: 0.95rem;
+    white-space: normal !important;
+    font-size: 0.95rem !important;
   }
   .category-separator {
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
   }
 
-  /* Main content: reduce horizontal padding on home and project pages */
-  main article.ph3,
-  main .ph5-l {
+  /* Main content: reduce horizontal padding */
+  main article.cf {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
