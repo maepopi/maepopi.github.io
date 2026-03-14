@@ -5,7 +5,7 @@ featured_image: "/img/hero.jpg"
 ---
 
 <div class="profile-section">
-  <img src="/img/prof_pic.jpg" alt="Maëlys Jusseaux">
+  <img src="/img/prof_pic.png" alt="Maëlys Jusseaux">
   <div>
 
 R&D Engineer with **10 years of experience** at the intersection of **3D, XR technologies and Artificial Intelligence**. Currently at [Nfinite](https://nfinite.app), I design and deploy large-scale production pipelines combining generative AI, computer vision and 3D.
