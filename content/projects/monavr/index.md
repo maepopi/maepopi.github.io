@@ -30,9 +30,9 @@ Made with [Charlotte](https://glitchoris.itch.io).
     
 
     
-    
+---
 
-  <iframe src="https://www.youtube.com/watch?v=tmw7-KkU4c8&t=1s" title="Mona VR - an artistic and expressive queueing simulator" allowfullscreen></iframe>
+{{< video-embed src="https://www.youtube.com/embed/tmw7-KkU4c8?start=1" title="Mona VR - an artistic and expressive queueing simulator" >}}
 
 **Requirements:** VR headset (tested with HTC Vive and Vive Pro, SteamVR).
 
