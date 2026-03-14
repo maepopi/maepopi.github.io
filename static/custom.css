@@ -52,10 +52,8 @@ main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
 }
 .profile-section img {
   border-radius: 6px;
-  width: 180px;
-  height: 240px;
-  object-fit: cover;
-  object-position: center top;
+  width: 200px;
+  height: auto;
   flex-shrink: 0;
   border: 3px solid #E07828;
 }
