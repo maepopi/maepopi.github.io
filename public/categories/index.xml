@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Maëlys Jusseaux</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://maelys-jusseaux.com/categories/</link>
     <description>Recent content in Categories on Maëlys Jusseaux</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maelys-jusseaux.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Tools</title>
-      <link>http://localhost:1313/categories/ai-tools/</link>
+      <link>https://maelys-jusseaux.com/categories/ai-tools/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ai-tools/</guid>
+      <guid>https://maelys-jusseaux.com/categories/ai-tools/</guid>
       <description></description>
     </item>
     <item>
       <title>XR &amp; VR</title>
-      <link>http://localhost:1313/categories/xr--vr/</link>
+      <link>https://maelys-jusseaux.com/categories/xr--vr/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/xr--vr/</guid>
+      <guid>https://maelys-jusseaux.com/categories/xr--vr/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>http://localhost:1313/categories/games/</link>
+      <link>https://maelys-jusseaux.com/categories/games/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/games/</guid>
+      <guid>https://maelys-jusseaux.com/categories/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Cultural Heritage</title>
-      <link>http://localhost:1313/categories/cultural-heritage/</link>
+      <link>https://maelys-jusseaux.com/categories/cultural-heritage/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cultural-heritage/</guid>
+      <guid>https://maelys-jusseaux.com/categories/cultural-heritage/</guid>
       <description></description>
     </item>
   </channel>

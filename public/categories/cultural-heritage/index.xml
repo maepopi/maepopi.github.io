@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cultural Heritage on Maëlys Jusseaux</title>
-    <link>http://localhost:1313/categories/cultural-heritage/</link>
+    <link>https://maelys-jusseaux.com/categories/cultural-heritage/</link>
     <description>Recent content in Cultural Heritage on Maëlys Jusseaux</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/cultural-heritage/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maelys-jusseaux.com/categories/cultural-heritage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mémoires Gothiques</title>
-      <link>http://localhost:1313/projects/memoires/</link>
+      <link>https://maelys-jusseaux.com/projects/memoires/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/memoires/</guid>
+      <guid>https://maelys-jusseaux.com/projects/memoires/</guid>
       <description>&lt;p&gt;I created this cathedral in the framework of a master&amp;rsquo;s and later PhD research about augmented and virtual reality applied to Cultural Heritage. This VR application, built in Unity, lets you navigate the different architectural polychromy schemes of a Gothic cathedral — focusing on the 13th and 19th centuries. I worked with art historian Anne Vuillemard-Jenn to restitute as plausible decorative schemes as possible. Alongside the historical reconstructions, I also created &amp;ldquo;emotional&amp;rdquo; décors that try to convey the different receptions and reinterpretations of medieval architecture across both periods.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resilience</title>
-      <link>http://localhost:1313/projects/resilience/</link>
+      <link>https://maelys-jusseaux.com/projects/resilience/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/resilience/</guid>
+      <guid>https://maelys-jusseaux.com/projects/resilience/</guid>
       <description>&lt;p&gt;&lt;em&gt;Resilience&lt;/em&gt; was created with &lt;strong&gt;Fabienne Bouvier&lt;/strong&gt; and &lt;strong&gt;Chloé Leroux&lt;/strong&gt; as a school project, and was exhibited at the &lt;strong&gt;Centre d&amp;rsquo;Arts d&amp;rsquo;Enghien-les-Bains&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The project takes the form of a virtual exhibition of a fictive artist. Each artwork can be interacted with to reveal traces and echoes of the artist&amp;rsquo;s life — fragments of memory, emotion, and identity embedded in the work itself.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Merveilles de l&#39;Atelier d&#39;André Breton</title>
-      <link>http://localhost:1313/projects/merveilles/</link>
+      <link>https://maelys-jusseaux.com/projects/merveilles/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/merveilles/</guid>
+      <guid>https://maelys-jusseaux.com/projects/merveilles/</guid>
       <description>&lt;p&gt;&lt;em&gt;Merveilles de l&amp;rsquo;Atelier d&amp;rsquo;André Breton&lt;/em&gt; is a Unity application made in collaboration with the &lt;strong&gt;Association André Breton&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;A selection of objects from André Breton&amp;rsquo;s personal studio were &lt;strong&gt;3D scanned, optimized and integrated&lt;/strong&gt; into an interactive Unity application. The application is currently &lt;strong&gt;exhibited at the Centre Pompidou&lt;/strong&gt; in Paris. The 3D models are also available on my &lt;a href=&#34;https://sketchfab.com/MaelysJusseaux&#34;&gt;Sketchfab account&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
