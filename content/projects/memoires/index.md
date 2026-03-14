@@ -1,5 +1,6 @@
 ---
 date: "2018-10-01"
+categories: ["Cultural Heritage"]
 featured: true
 title: "Mémoires Gothiques"
 description: "A VR exploration of gothic cathedral polychromy across two centuries. (2018)"

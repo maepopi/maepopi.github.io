@@ -1,5 +1,6 @@
 ---
 date: "2018-01-26"
+categories: ["Games"]
 title: "Harmonics"
 description: "A contemplative co-op game about forest spirits awakening flowers by singing — made in 48h for Global Game Jam 2018."
 background_color_class: "bg-gold"

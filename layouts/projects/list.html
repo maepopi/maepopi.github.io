@@ -3,13 +3,29 @@
     <section class="cf ph3 ph5-l pv3 pv4-l f4 center mw8 lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
       {{- .Content -}}
     </section>
-    <section class="mt4 mw8 center ph3 ph5-l">
-      {{ range .Paginator.Pages }}
-        <div class="w-100 mb4 relative">
-          {{ .Render "summary-with-image" }}
-        </div>
+
+    {{/* Group pages by category, sorted by date desc within each */}}
+    {{ $pages := .Pages | collections.Sort "Date" "desc" }}
+    {{ $categoryOrder := slice "AI Tools" "XR & VR" "Cultural Heritage" "Games" }}
+
+    <section class="mw8 center ph3 ph5-l pb4">
+      {{ range $categoryOrder }}
+        {{ $cat := . }}
+        {{ $inCat := where $pages ".Params.categories" "intersect" (slice $cat) }}
+        {{ if gt (len $inCat) 0 }}
+          <div class="category-section mb5">
+            <div class="category-separator">
+              <span class="category-label">{{ $cat }}</span>
+            </div>
+            {{ range $inCat }}
+              <div class="w-100 mb4 relative">
+                {{ .Render "summary-with-image" }}
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
       {{ end }}
     </section>
-    {{ partial "pagination.html" . -}}
+
   </article>
 {{ end }}

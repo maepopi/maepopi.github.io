@@ -1,5 +1,6 @@
 ---
 date: "2019-06-01"
+categories: ["XR & VR"]
 featured: true
 title: "Alienor"
 description: "A contemplative VR experience sitting with Eleanor of Aquitaine. (2019)"

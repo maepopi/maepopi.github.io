@@ -92,9 +92,57 @@ p img { display: inline-block; margin: 2px 3px; vertical-align: middle; }
   margin: 2rem 0 1.5rem;
 }
 
-/* ── Pagination + read-more buttons ─────────────── */
+/* ── Category separators on projects page ───────── */
+.category-separator {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+.category-separator::before,
+.category-separator::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(to right, #7A1508, #E07828, #7A1508);
+  opacity: 0.6;
+}
+.category-label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #E07828;
+  white-space: nowrap;
+  padding: 0.2rem 1rem;
+  border: 1px solid #7A1508;
+  border-radius: 4px;
+}
+
+/* ── Pagination buttons ──────────────────────────── */
 .ba.b--moon-gray { border-color: #5A2E18 !important; }
 .hover-bg-moon-gray:hover { background-color: #3A1E0E !important; }
+
+/* Pagination: black bg, orange text/border */
+nav[role="navigation"] a,
+.pagination a,
+[class*="pagination"] a {
+  background-color: #0A0000 !important;
+  color: #E07828 !important;
+  border-color: #E07828 !important;
+  border-radius: 4px;
+}
+nav[role="navigation"] a:hover,
+.pagination a:hover,
+[class*="pagination"] a:hover {
+  background-color: #2A0808 !important;
+  color: #F5A050 !important;
+}
+nav[role="navigation"] span,
+.pagination span,
+[class*="pagination"] span {
+  color: #E07828 !important;
+}
 
 /* ── Footer ─────────────────────────────────────── */
 footer { background-color: #0F0303 !important; color: #D4B8A0 !important; }

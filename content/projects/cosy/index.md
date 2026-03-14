@@ -1,5 +1,6 @@
 ---
 date: "2019-01-25"
+categories: ["Games"]
 title: "Cosy"
 description: "A game about being nice and cosy at home — made for Global Game Jam 2019."
 background_color_class: "bg-gold"

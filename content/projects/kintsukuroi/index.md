@@ -1,5 +1,6 @@
 ---
 date: "2020-01-31"
+categories: ["Games"]
 title: "Kintsukuroi"
 description: "A beautiful exploration game about healing — environment design for Global Game Jam 2020."
 background_color_class: "bg-orange"
