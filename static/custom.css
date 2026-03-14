@@ -1,0 +1,104 @@
+/* Ubuntu font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+/* Apply Ubuntu everywhere */
+*, *::before, *::after,
+body, h1, h2, h3, h4, h5, h6,
+p, a, li, td, th, blockquote, pre, code,
+input, textarea, button, select, label,
+.ubuntu {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+/* ── Dark warm background ───────────────────────── */
+.bg-near-black { background-color: #1A0505 !important; }
+body { background-color: #1A0505; color: #F5E6D8; }
+
+/* ── Warm header/hero backgrounds ──────────────── */
+.bg-dark-red { background-color: #7A1508 !important; }
+.bg-red       { background-color: #A32200 !important; }
+.bg-gold      { background-color: #9A4E00 !important; }
+.bg-orange    { background-color: #B04008 !important; }
+
+/* ── Text colours ───────────────────────────────── */
+.near-white, .mid-gray { color: #F5E6D8 !important; }
+.dark-gray, .gray      { color: #D4B8A0 !important; }
+.black, .near-black    { color: #F5E6D8 !important; }
+h1, h2, h3, h4, h5    { color: #FAEBD7; }
+
+/* ── Links ──────────────────────────────────────── */
+a, .link { color: #E07828 !important; }
+a:hover, .link:hover, .dim:hover { color: #F5A050 !important; opacity: 1 !important; }
+
+/* ── Article/card backgrounds (dark) ───────────── */
+.bg-white, article.bb { background-color: #2A0808 !important; }
+.bg-light-gray        { background-color: #3A1010 !important; }
+article.bb            { border-color: #5A1818 !important; }
+
+/* ── Wider content — remove narrow measure ──────── */
+.measure-wide { max-width: 52rem !important; }
+.mw7          { max-width: 64rem !important; }
+.mw8          { max-width: 80rem !important; }
+.w-70-ns      { width: 90% !important; }
+
+/* ── Profile section on homepage ───────────────── */
+.profile-section {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.profile-section img {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid #E07828;
+}
+
+/* ── Tech stack badges ──────────────────────────── */
+p img { display: inline-block; margin: 2px 3px; vertical-align: middle; }
+
+/* ── Section headings ───────────────────────────── */
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #E07828;
+  border-bottom: 2px solid #7A1508;
+  padding-bottom: 0.5rem;
+  margin: 2rem 0 1.5rem;
+}
+
+/* ── Pagination + read-more buttons ─────────────── */
+.ba.b--moon-gray { border-color: #5A2E18 !important; }
+.hover-bg-moon-gray:hover { background-color: #3A1E0E !important; }
+
+/* ── Footer ─────────────────────────────────────── */
+footer { background-color: #0F0303 !important; color: #D4B8A0 !important; }
+
+/* ── Hero banner: smaller height + white text ───── */
+/* Reduce banner overlay darkness so image shows through more */
+.bg-black-60 { background-color: rgba(0,0,0,0.25) !important; }
+
+/* Image-banner branch */
+header[style*="background-image"] > div > div {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+header[style*="background-image"] * { color: white !important; }
+header[style*="background-image"] a { color: white !important; }
+
+/* Solid-colour fallback branch (no featured_image on page) */
+header > div[class*="bg-"] {
+  padding-bottom: 0 !important;
+}
+header > div[class*="bg-"] * { color: white !important; }
+header > div[class*="bg-"] a { color: white !important; }
+
+/* Shrink Tachyons large-screen bottom padding on headers */
+.pb6-l { padding-bottom: 0.75rem !important; }
+
+/* Override Tachyons near-white opacity */
+.white-90 { color: #ffffff !important; opacity: 1 !important; }
+.white-80 { color: #ffffff !important; opacity: 1 !important; }

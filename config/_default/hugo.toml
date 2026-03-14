@@ -1,0 +1,16 @@
+theme = "ananke"
+baseURL = "https://maelys-jusseaux.com"
+languageCode = "en-us"
+title = "Maëlys Jusseaux"
+
+enableRobotsTXT = true
+summaryLength = 30
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+
+[pagination]
+  pagerSize = 12
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
