@@ -432,7 +432,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-alienor",
           title: 'Alienor',
-          description: "A contemplative VR experience sitting with Eleanor of Aquitaine.",
+          description: "A contemplative VR experience sitting with Eleanor of Aquitaine. (2019)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/alienor/";
             },},{id: "projects-audio-dataset-manager",
@@ -452,7 +452,7 @@ ninja.data = [{
               window.location.href = "/projects/diffusers-in-comfyui/";
             },},{id: "projects-dreamcatcher",
           title: 'Dreamcatcher',
-          description: "A VR Unreal application where you must flee through shifting environments — finding masks to escape the entity hunting you.",
+          description: "A VR Unreal application where you must flee through shifting environments — finding masks to escape the entity hunting you. (2017)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dreamcatcher/";
             },},{id: "projects-eira-39-s-potions-for-the-lost",
@@ -472,32 +472,32 @@ ninja.data = [{
               window.location.href = "/projects/kintsukuroi/";
             },},{id: "projects-mémoires-gothiques",
           title: 'Mémoires Gothiques',
-          description: "A VR exploration of gothic cathedral polychromy across two centuries.",
+          description: "A VR exploration of gothic cathedral polychromy across two centuries. (2018)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/memoires/";
             },},{id: "projects-merveilles-de-l-39-atelier-d-39-andré-breton",
           title: 'Merveilles de l&amp;#39;Atelier d&amp;#39;André Breton',
-          description: "A Unity application for the Centre Pompidou — 3D scans of objects from André Breton&#39;s studio, exhibited in the museum.",
+          description: "A Unity application for the Centre Pompidou — 3D scans of objects from André Breton&#39;s studio, exhibited in the museum. (2016–2017)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/merveilles/";
             },},{id: "projects-mona-vr",
           title: 'Mona VR',
-          description: "A humorous VR simulator of the real Mona Lisa queue experience at the Louvre.",
+          description: "A humorous VR simulator of the real Mona Lisa queue experience at the Louvre. (2020)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/monavr/";
             },},{id: "projects-mon-petit-atelier-de-destruction-du-patrimoine",
           title: 'Mon Petit Atelier de Destruction du Patrimoine',
-          description: "A VR museum where you can scan objects to learn about them — and smash them.",
+          description: "A VR museum where you can scan objects to learn about them — and smash them. (2020)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/padp/";
             },},{id: "projects-resilience",
           title: 'Resilience',
-          description: "A virtual exhibition of a fictive artist, where each artwork reveals traces and echoes of her life.",
+          description: "A virtual exhibition of a fictive artist, where each artwork reveals traces and echoes of her life. (2018)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/resilience/";
             },},{id: "projects-traces",
           title: 'Traces',
-          description: "A contemplative VR experience about Cultural Heritage, disappearance, and survival.",
+          description: "A contemplative VR experience about Cultural Heritage, disappearance, and survival. (2020)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/traces/";
             },},{id: "teachings-data-science-fundamentals",
