@@ -491,12 +491,17 @@ header nav a.f3 { display: none !important; }
   vertical-align: middle;
 }
 
-/* Tab buttons: smaller font so all fit on one line */
+/* Tab buttons: unified look across CV, Research, Projects, Tech stack — same font size */
+.cv-tabs-container .cv-tab-buttons .category-label,
 .tech-tabs-container .category-label,
-.projects-tabs-container .category-label {
-  font-size: 0.85rem;
+.projects-tabs-container .category-label,
+.research-tabs-container .category-label,
+.home-projects-tabs .category-label {
+  font-size: 0.85rem !important;
   letter-spacing: 0.08em;
   padding: 0.15rem 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .tech-tabs-container {
   width: 100%;
@@ -577,9 +582,27 @@ header nav a.f3 { display: none !important; }
     white-space: normal !important;
     font-size: 0.95rem !important;
   }
+  /* Tab containers: keep unified font size, allow wrap (Firefox, Chrome, Safari) */
+  .cv-tabs-container .cv-tab-buttons .category-label,
+  .tech-tabs-container .category-label,
+  .projects-tabs-container .category-label,
+  .research-tabs-container .category-label,
+  .home-projects-tabs .category-label {
+    font-size: 0.8rem !important;
+    padding: 0.2rem 0.5rem !important;
+  }
   .category-separator {
     flex-wrap: wrap !important;
     gap: 0.5rem !important;
+    justify-content: center !important;
+  }
+  .cv-tabs-container .cv-tab-buttons,
+  .tech-tabs-container .category-separator,
+  .projects-tabs-container .category-separator,
+  .research-tabs-container .category-separator,
+  .home-projects-tabs .category-separator {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
   }
 
   /* Main content: reduce horizontal padding */
