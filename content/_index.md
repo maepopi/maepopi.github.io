@@ -4,31 +4,20 @@ description: "R&D Engineer · Generative AI · 3D & XR · Computer Vision"
 featured_image: "/img/hero.jpg"
 ---
 
-<div class="profile-section">
+<div class="profile-section profile-section-compact">
   <img src="/img/prof_pic.png" alt="Maëlys Jusseaux">
   <div>
 
 R&D Engineer with **10 years of experience** at the intersection of **3D, XR technologies and Artificial Intelligence**. Currently at [Nfinite](https://nfinite.app), I design and deploy large-scale production pipelines combining generative AI, computer vision and 3D.
 
-My journey began with a **PhD** on eliciting transcendence experiences with cultural heritage through immersive technologies — what I called the *numinous heritage experience*. This research taught me to think of technology not as an end in itself, but as a **vector for emotion and human impact**.
-
-Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, always asking the same question: *how can this technology concretely improve people's lives?*
-
   </div>
 </div>
 
----
+{{< tech_stack_tabs names="AI Development,Programming,Digital Creation,XR Development" >}}
 
-<div class="tech-stack-section">
-
-## 🛠️ Tech Stack
-
-<div class="tech-category">
-
-### AI Development
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Frameworks & Tooling</span>
+{{< tech_stack_tab name="AI Development" index="0" >}}
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Frameworks & Tooling</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
@@ -40,23 +29,20 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Transformers">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Image & Video Generation</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Image & Video Generation</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Stable%20Diffusion-8A2BE2?style=flat-square&logoColor=white" alt="Stable Diffusion">
 <img src="https://img.shields.io/badge/Flux-7B2FBE?style=flat-square&logoColor=white" alt="Flux">
 <img src="https://img.shields.io/badge/Wan%202.2-7B2FBE?style=flat-square&logoColor=white" alt="Wan 2.2">
-<img src="https://img.shields.io/badge/Bytedance%20Seedream%20API-9C27B0?style=flat-square&logoColor=white" alt="Bytedance Seedream API">
 <img src="https://img.shields.io/badge/LoRAs-9C27B0?style=flat-square&logoColor=white" alt="LoRAs">
 <img src="https://img.shields.io/badge/BLoRAs-9C27B0?style=flat-square&logoColor=white" alt="BLoRAs">
 <img src="https://img.shields.io/badge/IPAdapters-9C27B0?style=flat-square&logoColor=white" alt="IPAdapters">
 <img src="https://img.shields.io/badge/Condeltas-9C27B0?style=flat-square&logoColor=white" alt="Condeltas">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Text Generation</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Text Generation</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Open--webui-4a4a4a?style=flat-square&logoColor=white" alt="Open-webui">
 <img src="https://img.shields.io/badge/Gemini%20API-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini API">
@@ -66,9 +52,8 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/Deepseek-4a4a4a?style=flat-square&logoColor=white" alt="Deepseek">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Voice Generation</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Voice Generation</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Tortoise--TTS-00897B?style=flat-square&logoColor=white" alt="Tortoise-TTS">
 <img src="https://img.shields.io/badge/Zonos-00897B?style=flat-square&logoColor=white" alt="Zonos">
@@ -76,9 +61,8 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/Coqui%20XTTS2-00897B?style=flat-square&logoColor=white" alt="Coqui XTTS2">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">3D Generation & Segmentation</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">3D Generation & Segmentation</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Hunyuan-FF7043?style=flat-square&logoColor=white" alt="Hunyuan">
 <img src="https://img.shields.io/badge/Trellis-FF7043?style=flat-square&logoColor=white" alt="Trellis">
@@ -92,24 +76,19 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/SAMPart3D-FF5722?style=flat-square&logoColor=white" alt="SAMPart3D">
 </p>
 </div>
+{{< /tech_stack_tab >}}
 
-</div>
-
-<div class="tech-category">
-
-### Programming
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Languages — Mid</span>
+{{< tech_stack_tab name="Programming" index="1" >}}
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Languages (Mid)</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX">
 <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Languages — Junior</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Languages (Junior)</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
 <img src="https://img.shields.io/badge/MEL-4a4a4a?style=flat-square&logoColor=white" alt="MEL">
@@ -118,18 +97,16 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Platforms</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Platforms</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
 <img src="https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows">
 <img src="https://img.shields.io/badge/MacOS-000000?style=flat-square&logo=apple&logoColor=white" alt="MacOS">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Versioning & Development</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Versioning & Development</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
@@ -137,15 +114,11 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/UV-4a4a4a?style=flat-square&logoColor=white" alt="UV">
 </p>
 </div>
+{{< /tech_stack_tab >}}
 
-</div>
-
-<div class="tech-category">
-
-### Digital Creation
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">3D</span>
+{{< tech_stack_tab name="Digital Creation" index="2" >}}
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">3D</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white" alt="Blender">
 <img src="https://img.shields.io/badge/Maya-00A9CE?style=flat-square&logoColor=white" alt="Maya">
@@ -154,9 +127,8 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/3DCoat-3C3C3C?style=flat-square&logoColor=white" alt="3DCoat">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Scan</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Scan</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/RealityCapture-FF5722?style=flat-square&logoColor=white" alt="RealityCapture">
 <img src="https://img.shields.io/badge/Metashape-FF5722?style=flat-square&logoColor=white" alt="Metashape">
@@ -164,9 +136,8 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/LumaAI-FF5722?style=flat-square&logoColor=white" alt="LumaAI">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">2D</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">2D</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white" alt="Photoshop">
 <img src="https://img.shields.io/badge/Krita-3DAEE9?style=flat-square&logoColor=white" alt="Krita">
@@ -175,9 +146,8 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/XNormal-4a4a4a?style=flat-square&logoColor=white" alt="XNormal">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Video</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Video</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Premiere-9999FF?style=flat-square&logo=adobepremierepro&logoColor=white" alt="Premiere">
 <img src="https://img.shields.io/badge/After%20Effects-9999FF?style=flat-square&logo=adobeaftereffects&logoColor=white" alt="After Effects">
@@ -185,33 +155,27 @@ Today I build tools in **Generative AI**, **Computer Vision** and **audio AI**, 
 <img src="https://img.shields.io/badge/Olive%20Editor-4a4a4a?style=flat-square&logoColor=white" alt="Olive Editor">
 </p>
 </div>
+{{< /tech_stack_tab >}}
 
-</div>
-
-<div class="tech-category">
-
-### XR Development
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Engines</span>
+{{< tech_stack_tab name="XR Development" index="3" >}}
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Engines</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white" alt="Godot">
 <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" alt="Unity">
 <img src="https://img.shields.io/badge/Unreal%20Engine-0E1128?style=flat-square&logo=unrealengine&logoColor=white" alt="Unreal Engine">
 </p>
 </div>
-
-<div class="tech-subgroup">
-<span class="tech-subgroup-label">Hardware</span>
+<div class="tech-subsection">
+<h3 class="tech-subsection-title">Hardware</h3>
 <p class="tech-badges">
 <img src="https://img.shields.io/badge/HoloLens-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="HoloLens">
 <img src="https://img.shields.io/badge/MagicLeap-000000?style=flat-square&logoColor=white" alt="MagicLeap">
-<img src="https://img.shields.io/badge/Meta%20Quest%20/%20Rift-1C1C1C?style=flat-square&logo=meta&logoColor=white" alt="Meta Quest/Rift">
-<img src="https://img.shields.io/badge/HTC%20Vive%20/%20Vive%20Pro-1C1C1C?style=flat-square&logoColor=white" alt="HTC Vive/Vive Pro">
-<img src="https://img.shields.io/badge/WMR%20(Lenovo,%20Dell)-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="WMR (Lenovo, Dell)">
+<img src="https://img.shields.io/badge/Meta%20Quest-1C1C1C?style=flat-square&logo=meta&logoColor=white" alt="Meta Quest">
+<img src="https://img.shields.io/badge/HTC%20Vive-1C1C1C?style=flat-square&logoColor=white" alt="HTC Vive">
+<img src="https://img.shields.io/badge/WMR-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="WMR">
 </p>
 </div>
+{{< /tech_stack_tab >}}
 
-</div>
-
-</div>
+{{< /tech_stack_tabs >}}

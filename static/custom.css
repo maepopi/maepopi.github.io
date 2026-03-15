@@ -49,14 +49,13 @@ main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
   grid-template-columns: 220px 1fr;
   gap: 2rem;
   margin-bottom: 2rem;
-  align-items: start;
+  align-items: center;
 }
 .profile-section img {
-  border-radius: 6px;
+  border-radius: 50%;
   width: 100%;
   max-width: 220px;
-  height: auto;
-  min-height: 200px;
+  aspect-ratio: 1;
   object-fit: cover;
   object-position: center top;
   border: 3px solid #E07828;
@@ -73,6 +72,21 @@ main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
 .profile-section > div > *:first-child {
   margin-top: 0 !important;
   padding-top: 0 !important;
+}
+.profile-section-compact {
+  grid-template-columns: 140px 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.profile-section-compact img {
+  width: 140px;
+  height: 140px;
+  max-width: 140px;
+  flex-shrink: 0;
+}
+.profile-section-compact > div p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 /* ── Tech stack section ─────────────────────────── */
@@ -380,6 +394,45 @@ header nav a.f3 { display: none !important; }
   margin-left: 0.25rem;
 }
 
+/* Tech stack tabs use cv-tab classes (same design as CV/Research) */
+
+/* Tech subsection titles (like CV Experience h3) */
+.tech-tab-content .tech-subsection-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FFD8B0;
+  margin: 1.5rem 0 0.75rem 0;
+}
+.tech-tab-content .tech-subsection:first-child .tech-subsection-title {
+  margin-top: 0;
+}
+.tech-subsection {
+  margin-bottom: 1.25rem;
+}
+.tech-subsection:last-child {
+  margin-bottom: 0;
+}
+.tech-badges {
+  margin: 0.5rem 0 0 !important;
+  line-height: 1.8;
+}
+.tech-badges img {
+  display: inline-block;
+  margin: 2px 4px 2px 0;
+  vertical-align: middle;
+}
+
+/* Tab buttons: smaller font so all fit on one line */
+.tech-tabs-container .category-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  padding: 0.15rem 0.6rem;
+}
+.tech-tabs-container {
+  width: 100%;
+  max-width: 100%;
+}
+
 /* ── Project gallery: homogenized image layout ──── */
 .project-gallery {
   display: grid;
@@ -404,12 +457,20 @@ header nav a.f3 { display: none !important; }
   }
   .profile-section img {
     display: block !important;
-    width: 160px !important;
-    height: 200px !important;
-    max-width: 160px !important;
-    max-height: 200px !important;
+    width: 120px !important;
+    height: 120px !important;
+    max-width: 120px !important;
+    max-height: 120px !important;
     margin: 0 auto 1rem auto !important;
     object-fit: cover !important;
+    border-radius: 50% !important;
+  }
+  .profile-section-compact img {
+    width: 120px !important;
+    height: 120px !important;
+    max-width: 120px !important;
+    max-height: 120px !important;
+    border-radius: 50% !important;
   }
   .profile-section > div {
     display: block !important;

@@ -1,0 +1,6 @@
+{{ $index := .Get "index" | default "0" }}
+<div class="cv-tab-panel {{ if eq $index "0" }}active{{ end }}" data-tab="tab-{{ $index }}" role="tabpanel">
+  <div class="research-category-content cv-tab-content tech-tab-content">
+    {{ .Inner | safeHTML }}
+  </div>
+</div>
