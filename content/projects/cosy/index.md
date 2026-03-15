@@ -35,6 +35,6 @@ Made with Charlotte and Camille Couturier for [Global Game Jam 2019](https://glo
 ![](/img/projects/cozy/yMQH85.png "Cosy")
     
     
-    
+{{< video src="assets/video/cosy/cosy.mp4" >}}
 
 [View on itch.io](https://glitchoris.itch.io/cosy)
