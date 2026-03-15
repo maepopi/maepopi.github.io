@@ -19,3 +19,6 @@ Born from the need to efficiently process dozens of hours of audiobook data for 
 - JSON management with automatic backup and versioning
 
 [View on GitHub](https://github.com/maepopi/audio-dataset-manager)
+
+
+<iframe src="https://www.youtube.com/watch?v=1MVc2B4nwk8" title="Audio Dataset Manager Tutorial" allowfullscreen></iframe>

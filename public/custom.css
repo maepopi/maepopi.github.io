@@ -83,8 +83,63 @@ main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
   margin-bottom: 2rem;
 }
 
+.tech-stack-section h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #5A1818;
+}
+
+.tech-category {
+  margin-bottom: 2rem;
+}
+.tech-category:last-child {
+  margin-bottom: 0;
+}
+
+.tech-category h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #E07828;
+  margin: 0 0 0.75rem 0;
+  padding-left: 0.5rem;
+  border-left: 3px solid #7A1508;
+}
+
+.tech-subgroup {
+  margin-bottom: 1rem;
+  padding: 0.6rem 0.75rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border: 1px solid rgba(122, 21, 8, 0.3);
+}
+
+.tech-subgroup:last-child {
+  margin-bottom: 0;
+}
+
+.tech-subgroup-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #C4A574;
+  margin-bottom: 0.5rem;
+}
+
+.tech-badges {
+  margin: 0 !important;
+  line-height: 1.8;
+}
+
 /* ── Tech stack badges ──────────────────────────── */
-p img { display: inline-block; margin: 2px 3px; vertical-align: middle; }
+.tech-badges img,
+.tech-stack-section p img {
+  display: inline-block;
+  margin: 2px 4px 2px 0;
+  vertical-align: middle;
+}
 
 /* ── Section headings ───────────────────────────── */
 .section-heading {
@@ -222,11 +277,21 @@ header nav a.f3 { display: none !important; }
     margin-right: -0.5rem !important;
     border-radius: 6px !important;
   }
-  .tech-stack-section h2, .tech-stack-section h3 {
+  .tech-stack-section h2 {
     font-size: 1.1rem !important;
   }
+  .tech-category h3 {
+    font-size: 1rem !important;
+  }
+  .tech-subgroup {
+    padding: 0.5rem 0.6rem !important;
+  }
+  .tech-subgroup-label {
+    font-size: 0.75rem !important;
+  }
+  .tech-badges img,
   .tech-stack-section p img {
-    margin: 2px !important;
+    margin: 2px 3px 2px 0 !important;
   }
 
   /* Category labels: allow wrap on very narrow screens */
