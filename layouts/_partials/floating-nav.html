@@ -1,0 +1,65 @@
+<div id="floating-nav" class="floating-nav" aria-hidden="true">
+  <a href="{{ .Site.Home.Permalink }}" class="floating-nav-btn" title="Home" aria-label="Go to home page">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+  </a>
+  <button type="button" class="floating-nav-btn" id="floating-nav-top" title="Back to top" aria-label="Scroll to top of page">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+</div>
+<style>
+.floating-nav {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+.floating-nav.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.floating-nav-btn {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5A1818;
+  border: 1px solid #7A1508;
+  border-radius: 50%;
+  color: #FFD8B0;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.floating-nav-btn:hover {
+  background-color: #7A1508;
+  border-color: #E07828;
+  color: #F5E8D5;
+}
+</style>
+<script>
+(function() {
+  const nav = document.getElementById('floating-nav');
+  const topBtn = document.getElementById('floating-nav-top');
+  if (!nav || !topBtn) return;
+
+  function toggleVisible() {
+    nav.classList.toggle('visible', window.scrollY > 300);
+    nav.setAttribute('aria-hidden', window.scrollY <= 300);
+  }
+
+  topBtn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  window.addEventListener('scroll', toggleVisible, { passive: true });
+  toggleVisible();
+})();
+</script>
