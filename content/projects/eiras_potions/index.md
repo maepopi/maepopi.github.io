@@ -39,13 +39,6 @@ Made in 48h with [Charlotte RGB](https://glitchoris.itch.io) for [Global Game Ja
 ![](/img/projects/eira/wbE9vk.png "Eira's Potions")
     
 
-    
-        
-            <iframe src="https://www.youtube.com/embed/bgyFL90jCj8" title="Eira's Potions for the Lost — video" allowfullscreen></iframe>
-
-
-            {{< video src="assets/video/eira/Eira_full.mp4" >}}
-
-        
+{{< video src="/assets/video/eira/Eira_full.mp4" >}}
 
 [View on itch.io](https://glitchoris.itch.io/potions)
