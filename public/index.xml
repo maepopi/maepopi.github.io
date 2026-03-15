@@ -163,6 +163,13 @@
       <description>&lt;p&gt;&lt;em&gt;Merveilles de l&amp;rsquo;Atelier d&amp;rsquo;André Breton&lt;/em&gt; is a Unity application made in collaboration with the &lt;strong&gt;Association André Breton&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;A selection of objects from André Breton&amp;rsquo;s personal studio were &lt;strong&gt;3D scanned, optimized and integrated&lt;/strong&gt; into an interactive Unity application. The application is currently &lt;strong&gt;exhibited at the Centre Pompidou&lt;/strong&gt; in Paris. The 3D models are also available on my &lt;a href=&#34;https://sketchfab.com/MaelysJusseaux&#34;&gt;Sketchfab account&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Communications</title>
+      <link>https://maelys-jusseaux.com/communications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maelys-jusseaux.com/communications/</guid>
+      <description>&lt;h2 id=&#34;conference-communications&#34;&gt;Conference Communications&lt;/h2&gt;&#xA;&lt;h3 id=&#34;regards-sur-la-contextualisation-du-patrimoine-à-travers-minsar&#34;&gt;Regards sur la contextualisation du patrimoine à travers Minsar&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Colloque Arts et Vestiges : Contextualisation, Exposition, Scénographie&lt;/strong&gt; · INHA, Paris · 14–15 October 2019&lt;/p&gt;&#xA;&lt;p&gt;Presentation of three artistic experiments for heritage using the Minsar platform, as part of my PhD research. Each experiment explores the theme of heritage contextualisation.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Contact</title>
       <link>https://maelys-jusseaux.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -175,6 +182,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maelys-jusseaux.com/cv/</guid>
       <description>&lt;p class=&#34;mb4&#34;&gt;&#xA;  &lt;a href=&#34;https://maelys-jusseaux.com/pdf/Maelys_2026_pro.pdf&#34; download class=&#34;link&#34;&gt;📄 Download CV (PDF)&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;object data=&#34;/pdf/Maelys_2026_pro.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;800&#34; style=&#34;border: 1px solid #5A1818; border-radius: 6px; min-height: 70vh;&#34; title=&#34;CV Maëlys Jusseaux&#34;&gt;&#xA;  &lt;p&gt;Your browser does not support PDF embedding. &lt;a href=&#34;https://maelys-jusseaux.com/pdf/Maelys_2026_pro.pdf&#34;&gt;Download the CV (PDF)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/object&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;3d--computer-vision-research-engineer&#34;&gt;3D &amp;amp; Computer Vision Research Engineer&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Nfinite SAS&lt;/strong&gt; · Paris · &lt;code&gt;Jul 2022 – Present&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://maelys-jusseaux.com/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maelys-jusseaux.com/publications/</guid>
+      <description>&lt;h2 id=&#34;articles--publications&#34;&gt;Articles &amp;amp; Publications&lt;/h2&gt;&#xA;&lt;h3 id=&#34;mona-vr--recreating-an-experience-an-artistic-and-expressive-queuing-simulator&#34;&gt;Mona VR — recreating an experience. An artistic and expressive queuing simulator.&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Piers Bishop, Chu-Yin CHEN (eds.)&lt;/strong&gt; · April 2020&lt;/p&gt;&#xA;&lt;p&gt;Research article following a presentation at Laval Virtual VRIC ConVRgence 2020. Presents Mona VR, a VR experience simulating the Mona Lisa queue at the Musée du Louvre. The parodic nature of the queue simulation invites reflection on the concept of authenticity.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
