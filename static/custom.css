@@ -84,7 +84,6 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
 }
 .home-left .tech-tabs-container .cv-tab-buttons {
   margin-bottom: 1rem;
-  flex-wrap: wrap;
 }
 .home-left .cv-tab-btn {
   font-size: 0.8rem !important;
@@ -115,9 +114,6 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
 .home-projects-tabs .cv-tab-btn {
   font-size: 0.8rem !important;
   padding: 0.2rem 0.5rem !important;
-}
-.home-projects-tabs .cv-tab-buttons {
-  flex-wrap: wrap;
 }
 .home-projects-tabs .project-card-compact {
   border-bottom-color: #3A1010;
@@ -330,6 +326,7 @@ article[class^="page-"] {
   align-items: center;
   gap: 1rem;
   margin: 0 0 2rem;
+  width: 100%;
 }
 .category-separator::before,
 .category-separator::after {
@@ -418,6 +415,9 @@ header nav a.f3 { display: none !important; }
 }
 .cv-tabs-container .cv-tab-buttons {
   margin-bottom: 2rem;
+  flex-wrap: nowrap;
+  width: 100%;
+  min-width: 0;
 }
 .cv-tabs-container .cv-tab-buttons::before,
 .cv-tabs-container .cv-tab-buttons::after {
@@ -435,6 +435,7 @@ header nav a.f3 { display: none !important; }
   background: linear-gradient(to left, #7A1508, #E07828);
 }
 .cv-tab-btn {
+  flex-shrink: 0;
   background: transparent;
   border: 1px solid #7A1508;
   cursor: pointer;
@@ -619,28 +620,63 @@ header nav a.f3 { display: none !important; }
     white-space: normal !important;
     font-size: 0.95rem !important;
   }
-  /* Tab buttons: unified mobile styling for Firefox, Chrome, Safari */
+  /* Tab buttons: single line, responsive for Firefox, iOS Safari, mobile */
   .cv-tabs-container .cv-tab-btn,
   .tech-tabs-container .cv-tab-btn,
   .projects-tabs-container .cv-tab-btn,
   .research-tabs-container .cv-tab-btn {
-    font-size: 0.85rem !important;
-    padding: 0.25rem 0.6rem !important;
-    white-space: normal !important;
-    min-width: 0;
+    font-size: clamp(0.6rem, 2.5vw, 0.85rem) !important;
+    padding: 0.2rem 0.4rem !important;
+    white-space: nowrap !important;
+    letter-spacing: 0.05em !important;
   }
+  /* Tab row: single line, full width, horizontal scroll fallback on very narrow screens */
   .category-separator.cv-tab-buttons {
-    flex-wrap: wrap !important;
-    gap: 0.5rem !important;
-    justify-content: flex-start;
+    flex-wrap: nowrap !important;
+    gap: 0.4rem !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
   }
-  .category-separator {
+  .category-separator.cv-tab-buttons::-webkit-scrollbar {
+    height: 4px;
+  }
+  .cv-tab-btn {
+    -webkit-tap-highlight-color: rgba(224, 120, 40, 0.2);
+  }
+  .category-separator:not(.cv-tab-buttons) {
     flex-wrap: wrap !important;
     gap: 0.5rem !important;
   }
 
   /* Main content: reduce horizontal padding */
   main article.cf {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* Very narrow screens (iPhone SE, etc.): ensure tabs fit or scroll smoothly */
+@media (max-width: 480px) {
+  body.is-home main {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .home-two-column {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .cv-tabs-container .cv-tab-btn,
+  .tech-tabs-container .cv-tab-btn,
+  .projects-tabs-container .cv-tab-btn,
+  .research-tabs-container .cv-tab-btn {
+    font-size: 0.65rem !important;
+    padding: 0.18rem 0.35rem !important;
+  }
+  article.page-research,
+  article.page-cv,
+  article.page-contact,
+  article[class^="page-"] {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
