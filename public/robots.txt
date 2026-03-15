@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://maelys-jusseaux.com/sitemap.xml
+Disallow: /

@@ -1,6 +1,6 @@
 ---
 date: "2023-03-01"
-categories: ["XR & VR"]
+categories: ["XR"]
 featured: true
 title: "Traces"
 description: "A contemplative VR experience about Cultural Heritage, disappearance, and survival. (2020)"

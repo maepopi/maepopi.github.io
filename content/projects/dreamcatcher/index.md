@@ -1,6 +1,6 @@
 ---
 date: "2017-10-01"
-categories: ["XR & VR"]
+categories: ["XR"]
 title: "Dreamcatcher"
 description: "A VR Unreal application where you must flee through shifting environments — finding masks to escape the entity hunting you. (2017)"
 background_color_class: "bg-dark-red"

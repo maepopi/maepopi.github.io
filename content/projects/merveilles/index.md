@@ -1,6 +1,6 @@
 ---
 date: "2017-06-01"
-categories: ["Cultural Heritage"]
+categories: ["POCs & Applications"]
 title: "Merveilles de l'Atelier d'André Breton"
 description: "A Unity application for the Centre Pompidou — 3D scans of objects from André Breton's studio, exhibited in the museum. (2016–2017)"
 background_color_class: "bg-red"

@@ -1,6 +1,6 @@
 ---
 date: "2019-04-01"
-categories: ["Proofs of Concept"]
+categories: ["POCs & Applications"]
 featured: true
 title: "Magic Leapotter"
 description: "A small POC to start developing with Magic Leap"

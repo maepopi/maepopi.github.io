@@ -1,6 +1,6 @@
 ---
 date: "2020-10-01"
-categories: ["XR & VR"]
+categories: ["XR"]
 title: "Mon Petit Atelier de Destruction du Patrimoine"
 description: "A VR museum where you can scan objects to learn about them — and smash them. (2020)"
 background_color_class: "bg-orange"
