@@ -157,9 +157,13 @@ article.bb .db.pv4 {
   padding-right: 1.25rem !important;
 }
 /* Justify all description/summary text (project cards and content) */
+.project-description,
+.project-description p,
 article.bb .nested-copy-line-height,
-.nested-copy-line-height.lh-copy {
-  text-align: justify;
+article.bb .nested-copy-line-height p,
+.nested-copy-line-height.lh-copy,
+.nested-copy-line-height.lh-copy p {
+  text-align: justify !important;
 }
 article.bb .nested-copy-line-height p {
   margin-top: 0.75em;
