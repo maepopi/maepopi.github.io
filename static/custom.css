@@ -42,20 +42,23 @@ article.bb            { border-color: #5A1818 !important; }
 .w-70-ns      { width: 70% !important; }
 /* Constrain main content and center it */
 main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
-body.is-home main { max-width: 72rem; padding-left: 1.5rem; padding-right: 1.5rem; }
+body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5rem; }
 
 /* ── Home two-column layout ────────────────────── */
 .home-two-column {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 2.5rem;
-  max-width: 68rem;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 3.5rem;
+  max-width: 84rem;
   margin-left: auto;
   margin-right: auto;
   align-items: start;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
 }
 .home-left {
   min-width: 0;
+  overflow: visible;
 }
 .home-right {
   min-width: 0;
@@ -77,23 +80,44 @@ body.is-home main { max-width: 72rem; padding-left: 1.5rem; padding-right: 1.5re
 }
 .home-left .tech-tabs-container {
   margin-bottom: 0;
+  overflow: visible;
 }
 .home-left .tech-tabs-container .cv-tab-buttons {
   margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.home-left .cv-tab-btn {
+  font-size: 0.8rem !important;
+  padding: 0.2rem 0.5rem !important;
 }
 .home-left .research-category-content {
-  padding: 1rem 1.25rem;
+  padding: 0.75rem 1rem;
+  overflow: visible;
 }
 .home-left .tech-subsection {
   margin-bottom: 1rem;
 }
+.home-left .tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
 .home-left .tech-badges img {
   margin: 2px 3px 2px 0;
+  flex-shrink: 0;
 }
-/* Home projects: compact cards */
+/* Home projects: match tech stack tab style */
 .home-projects-tabs .section-heading {
   font-size: 1.25rem;
   margin: 0 0 1rem 0;
+  border-bottom: none;
+}
+.home-projects-tabs .cv-tab-btn {
+  font-size: 0.8rem !important;
+  padding: 0.2rem 0.5rem !important;
+}
+.home-projects-tabs .cv-tab-buttons {
+  flex-wrap: wrap;
 }
 .home-projects-tabs .project-card-compact {
   border-bottom-color: #3A1010;
@@ -101,7 +125,7 @@ body.is-home main { max-width: 72rem; padding-left: 1.5rem; padding-right: 1.5re
 .home-projects-tabs .project-card-compact:last-child {
   border-bottom: none;
 }
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
   .home-two-column {
     grid-template-columns: 1fr;
   }
@@ -310,10 +334,17 @@ article[class^="page-"] {
 .category-separator::before,
 .category-separator::after {
   content: "";
-  flex: 1;
+  flex: 1 1 auto;
+  min-width: 0;
   height: 2px;
   background: linear-gradient(to right, #7A1508, #E07828, #7A1508);
   opacity: 0.6;
+}
+.category-separator::before {
+  background: linear-gradient(to right, #7A1508, #E07828);
+}
+.category-separator::after {
+  background: linear-gradient(to left, #7A1508, #E07828);
 }
 .category-label {
   font-size: 1.1rem;
@@ -391,10 +422,17 @@ header nav a.f3 { display: none !important; }
 .cv-tabs-container .cv-tab-buttons::before,
 .cv-tabs-container .cv-tab-buttons::after {
   content: "";
-  flex: 1;
+  flex: 1 1 auto;
+  min-width: 0;
   height: 2px;
   background: linear-gradient(to right, #7A1508, #E07828, #7A1508);
   opacity: 0.6;
+}
+.cv-tabs-container .cv-tab-buttons::before {
+  background: linear-gradient(to right, #7A1508, #E07828);
+}
+.cv-tabs-container .cv-tab-buttons::after {
+  background: linear-gradient(to left, #7A1508, #E07828);
 }
 .cv-tab-btn {
   background: transparent;
@@ -491,17 +529,16 @@ header nav a.f3 { display: none !important; }
   vertical-align: middle;
 }
 
-/* Tab buttons: unified look across CV, Research, Projects, Tech stack — same font size */
-.cv-tabs-container .cv-tab-buttons .category-label,
-.tech-tabs-container .category-label,
-.projects-tabs-container .category-label,
-.research-tabs-container .category-label,
-.home-projects-tabs .category-label {
-  font-size: 0.85rem !important;
-  letter-spacing: 0.08em;
-  padding: 0.15rem 0.6rem;
+/* Tab buttons: unified look across CV, Tech, Projects, Research */
+.cv-tabs-container .cv-tab-btn,
+.tech-tabs-container .cv-tab-btn,
+.projects-tabs-container .cv-tab-btn,
+.research-tabs-container .cv-tab-btn {
+  font-size: 0.9rem;
   font-weight: 700;
-  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.75rem;
+  white-space: nowrap;
 }
 .tech-tabs-container {
   width: 100%;
@@ -577,32 +614,29 @@ header nav a.f3 { display: none !important; }
     margin: 2px 3px 2px 0 !important;
   }
 
-  /* Category labels: allow wrap on very narrow screens */
+  /* Category labels (standalone): allow wrap on very narrow screens */
   .category-label {
     white-space: normal !important;
     font-size: 0.95rem !important;
   }
-  /* Tab containers: keep unified font size, allow wrap (Firefox, Chrome, Safari) */
-  .cv-tabs-container .cv-tab-buttons .category-label,
-  .tech-tabs-container .category-label,
-  .projects-tabs-container .category-label,
-  .research-tabs-container .category-label,
-  .home-projects-tabs .category-label {
-    font-size: 0.8rem !important;
-    padding: 0.2rem 0.5rem !important;
+  /* Tab buttons: unified mobile styling for Firefox, Chrome, Safari */
+  .cv-tabs-container .cv-tab-btn,
+  .tech-tabs-container .cv-tab-btn,
+  .projects-tabs-container .cv-tab-btn,
+  .research-tabs-container .cv-tab-btn {
+    font-size: 0.85rem !important;
+    padding: 0.25rem 0.6rem !important;
+    white-space: normal !important;
+    min-width: 0;
+  }
+  .category-separator.cv-tab-buttons {
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+    justify-content: flex-start;
   }
   .category-separator {
     flex-wrap: wrap !important;
     gap: 0.5rem !important;
-    justify-content: center !important;
-  }
-  .cv-tabs-container .cv-tab-buttons,
-  .tech-tabs-container .category-separator,
-  .projects-tabs-container .category-separator,
-  .research-tabs-container .category-separator,
-  .home-projects-tabs .category-separator {
-    flex-wrap: wrap !important;
-    justify-content: center !important;
   }
 
   /* Main content: reduce horizontal padding */

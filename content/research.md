@@ -7,7 +7,7 @@ layout: research
 
 {{< research_tabs names="Communications,Publications,Dissertations" >}}
 
-{{< research_tab name="Communications" index="0" >}}
+{{< research_tab index="0" >}}
 ### Franco-British Colour Study Day
 **CFC Colour Group of Britain** · MINES ParisTech, Paris · June 2015
 
@@ -29,7 +29,7 @@ Presentation on digital colour reconstruction techniques applied to heritage pre
 Presentation on the digital reconstruction of colour in medieval art using the example of a Sainte-Chapelle medallion, as part of a symposium organised by the French Centre for Colour Studies. Findings from Master's thesis and research internship at the Centre des Monuments Nationaux.
 {{< /research_tab >}}
 
-{{< research_tab name="Publications" index="1" >}}
+{{< research_tab index="1" >}}
 ### Mona VR — recreating an experience. An artistic and expressive queuing simulator.
 **Piers Bishop, Chu-Yin CHEN (eds.)** · April 2020
 
@@ -57,15 +57,13 @@ Communication at the colloque *La recherche sur le patrimoine et les outils num�
 [View on Contextualités](https://contextualites.hypotheses.org/category/maelys-jusseaux)
 {{< /research_tab >}}
 
-{{< research_tab name="Dissertations" index="2" >}}
+{{< research_tab index="2" >}}
 ### Seeking the Numinous Heritage Experience (NHE) : exploring an essence of cultural heritage with interactive and immersive technologies
 **PhD — Esthétique, Sciences et Technologies des Arts** · Paris 8 · 2018–2021
 
 This thesis results from a CIFRE contract between Paris 8 University and Opuscope, which develops a platform named Minsar. It aims at democratizing the use of XR technologies. The goal of the research was originally to create new artistic and cultural mediation experiences of heritage with XR technologies, while shifting the focus to emotion and imagination.The research methodology caused the subject to evolve towards a more introspective approach, which sought the deep roots of our attachment to cultural heritage. The artistic experimentations with XR technologies around museum habits led to the concept of Numinous Heritage Experience (NHE). This concept thus became the core of the research.The NHE is a transcendental experience which emerges from the encounter between a visitor and an element of cultural heritage. It seizes the person both intellectually and emotionally, but also corporeally. The NHE strongly engages the visitor with cultural heritage. The same can be said from XR technologies, because of their potential of presence and embodiment. The artistic iteration revealed a key aspect of the NHE: the projection, on the object, of a dream of survival. Through the exploration of these themes, it appeared that practices involving heritage as well as the desire to evade in a fantasized past may result from a search for numen. The numen, feeling of transcendence or mystery, is a manifestation of human existential fears and interrogations. Notably, it provides a way to make sense of the disappearance of another human being. A strong link can thus be drawn between heritage practices and other forms of human rites.
 
 [View on Theses.fr](https://theses.fr/2021PA080078)
-
-
 {{< /research_tab >}}
 
 {{< /research_tabs >}}

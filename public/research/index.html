@@ -249,7 +249,7 @@
       btn.classList.add('active');
       btn.setAttribute('aria-selected', 'true');
       const tabId = btn.getAttribute('data-tab');
-      const panel = container.querySelector(`.cv-tab-panel[data-tab="${tabId}"]`);
+      const panel = container.querySelector('.cv-tab-panel[data-tab="' + tabId + '"]');
       if (panel) panel.classList.add('active');
     });
   });
