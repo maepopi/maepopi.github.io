@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 description: "Get in touch — I'm always happy to discuss collaborations, research, or creative projects."
-featured_image: "/img/projects/resilience/Photo_Principale.png"
+featured_image: "/img/projects/resilience/love.png"
 ---
 
 ## Get in touch
