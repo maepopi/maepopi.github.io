@@ -1,0 +1,61 @@
+{{ $projectsSection := $.Site.GetPage "/projects" }}
+{{ $pages := $projectsSection.Pages.ByDate.Reverse }}
+{{ $categoryOrder := slice "AI & Tools" "XR" "POCs & Applications" "Games" }}
+
+{{ $categoriesWithProjects := slice }}
+{{ range $categoryOrder }}
+  {{ $inCat := where $pages ".Params.categories" "intersect" (slice .) }}
+  {{ if gt (len $inCat) 0 }}
+    {{ $categoriesWithProjects = $categoriesWithProjects | append . }}
+  {{ end }}
+{{ end }}
+
+<div class="category-section cv-tabs-container projects-tabs-container home-projects-tabs">
+  <h2 class="section-heading f2 fw7">Some projects...</h2>
+  <div class="category-separator cv-tab-buttons" role="tablist">
+    {{ range $i, $cat := $categoriesWithProjects }}
+      {{ $id := printf "home-projects-tab-%d" $i }}
+      <button class="category-label cv-tab-btn {{ if eq $i 0 }}active{{ end }}" role="tab" data-tab="{{ $id }}" aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}">
+        {{ $cat }}
+      </button>
+    {{ end }}
+  </div>
+  <div class="cv-tab-panels">
+    {{ range $i, $cat := $categoriesWithProjects }}
+      {{ $id := printf "home-projects-tab-%d" $i }}
+      {{ $inCat := where $pages ".Params.categories" "intersect" (slice $cat) }}
+      <div class="cv-tab-panel {{ if eq $i 0 }}active{{ end }}" data-tab="{{ $id }}" role="tabpanel">
+        {{ range first 3 $inCat }}
+          <div class="w-100 mb3 relative">
+            {{ .Render "summary-with-image-compact" }}
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+  <section class="w-100 mt3">
+    <a href="/projects/" class="ba b--moon-gray br2 color-inherit dib f6 hover-bg-moon-gray link ph3 pv2" style="color:#E07828; border-color:#7A1508;">
+      → View all projects
+    </a>
+  </section>
+</div>
+
+<script>
+(function() {
+  const container = document.querySelector('.home-projects-tabs');
+  if (!container) return;
+  const buttons = container.querySelectorAll('.cv-tab-btn');
+  const panels = container.querySelectorAll('.cv-tab-panel');
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+      panels.forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      const tabId = btn.getAttribute('data-tab');
+      const panel = container.querySelector(`.cv-tab-panel[data-tab="${tabId}"]`);
+      if (panel) panel.classList.add('active');
+    });
+  });
+})();
+</script>

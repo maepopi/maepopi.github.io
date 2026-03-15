@@ -1,0 +1,25 @@
+{{ $featured_image := partials.Include "func/GetFeaturedImage.html" . }}
+<article class="bb b--black-10 project-card-compact">
+  <div class="db pv3 ph0 dark-gray no-underline">
+    <div class="flex">
+      {{ if $featured_image }}
+        <div class="pr3 flex-shrink-0" style="width: 80px;">
+          <a href="{{.RelPermalink}}" class="db">
+            <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}" style="width: 80px; height: 60px; object-fit: cover; border-radius: 4px;">
+          </a>
+        </div>
+      {{ end }}
+      <div class="min-w-0 flex-auto">
+        <h3 class="f5 fw6 mt0 mb1 lh-title">
+          <a href="{{.RelPermalink}}" class="color-inherit dim link">
+            {{ .Title }}
+          </a>
+        </h3>
+        <p class="f6 lh-copy mv0 nested-links project-description-compact">
+          {{ .Summary | plainify | truncate 120 }}
+        </p>
+        <a href="{{.RelPermalink}}" class="f7 link mt1 dib" style="color:#E07828;">read more</a>
+      </div>
+    </div>
+  </div>
+</article>

@@ -42,6 +42,75 @@ article.bb            { border-color: #5A1818 !important; }
 .w-70-ns      { width: 70% !important; }
 /* Constrain main content and center it */
 main, article.cf { max-width: 60rem; margin-left: auto; margin-right: auto; }
+body.is-home main { max-width: 72rem; padding-left: 1.5rem; padding-right: 1.5rem; }
+
+/* ── Home two-column layout ────────────────────── */
+.home-two-column {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  max-width: 68rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: start;
+}
+.home-left {
+  min-width: 0;
+}
+.home-right {
+  min-width: 0;
+}
+/* Home: compact profile and tech stack */
+.home-left .profile-section-compact {
+  margin-bottom: 1.25rem;
+  grid-template-columns: 100px 1fr;
+  gap: 1rem;
+}
+.home-left .profile-section-compact img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+}
+.home-left .profile-section-compact > div p {
+  font-size: 0.95rem;
+  margin: 0.25em 0;
+}
+.home-left .tech-tabs-container {
+  margin-bottom: 0;
+}
+.home-left .tech-tabs-container .cv-tab-buttons {
+  margin-bottom: 1rem;
+}
+.home-left .research-category-content {
+  padding: 1rem 1.25rem;
+}
+.home-left .tech-subsection {
+  margin-bottom: 1rem;
+}
+.home-left .tech-badges img {
+  margin: 2px 3px 2px 0;
+}
+/* Home projects: compact cards */
+.home-projects-tabs .section-heading {
+  font-size: 1.25rem;
+  margin: 0 0 1rem 0;
+}
+.home-projects-tabs .project-card-compact {
+  border-bottom-color: #3A1010;
+}
+.home-projects-tabs .project-card-compact:last-child {
+  border-bottom: none;
+}
+@media (max-width: 960px) {
+  .home-two-column {
+    grid-template-columns: 1fr;
+  }
+  .home-left .profile-section-compact img {
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+  }
+}
 
 /* ── Profile section on homepage ───────────────── */
 .profile-section {
