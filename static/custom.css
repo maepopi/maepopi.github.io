@@ -423,7 +423,8 @@ header nav a.f3 { display: none !important; }
 }
 
 /* Tab buttons: smaller font so all fit on one line */
-.tech-tabs-container .category-label {
+.tech-tabs-container .category-label,
+.projects-tabs-container .category-label {
   font-size: 0.85rem;
   letter-spacing: 0.08em;
   padding: 0.15rem 0.6rem;
