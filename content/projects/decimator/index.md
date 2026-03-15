@@ -10,5 +10,5 @@ This is a project that was developed originally for museums to be able to quickl
 
     
     
-{{< video src="assets/video/decimator/Decimator.mp4" >}}
+{{< video src="/assets/video/decimator/Decimator.mp4" >}}
 
