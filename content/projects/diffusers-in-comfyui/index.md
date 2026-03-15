@@ -1,6 +1,7 @@
 ---
 date: "2024-06-01"
 categories: ["AI & Tools"]
+featured_image: "/img/projects/diffusers_comfyui_screenshot.png"
 title: "Diffusers in ComfyUI"
 description: "A custom ComfyUI node that brings the full Hugging Face Diffusers pipeline into ComfyUI workflows."
 background_color_class: "bg-orange"

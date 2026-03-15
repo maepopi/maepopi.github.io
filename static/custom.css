@@ -248,6 +248,21 @@ header > div[class*="bg-"] a { color: #FFD8B0 !important; }
 /* Hide site title link in nav (top-left "Maëlys Jusseaux") */
 header nav a.f3 { display: none !important; }
 
+/* ── Project gallery: homogenized image layout ──── */
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.project-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #5A1818;
+  display: block;
+}
+
 /* ── Mobile responsiveness ───────────────────────── */
 @media (max-width: 768px) {
   /* Profile: block layout (Firefox/Safari compatible), image first, then text */

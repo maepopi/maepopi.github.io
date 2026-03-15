@@ -1,6 +1,7 @@
 ---
 date: "2020-06-01"
 categories: ["XR"]
+featured_image: "https://img.youtube.com/vi/tmw7-KkU4c8/hqdefault.jpg"
 title: "Mona VR"
 description: "A humorous VR simulator of the real Mona Lisa queue experience at the Louvre. (2020)"
 background_color_class: "bg-gold"

@@ -2,6 +2,7 @@
 date: "2025-01-01"
 categories: ["AI & Tools"]
 featured: true
+featured_image: "https://img.youtube.com/vi/1MVc2B4nwk8/hqdefault.jpg"
 title: "Audio Dataset Manager"
 description: "An all-in-one tool for preparing audiobooks and large audio files for TTS training and voice cloning."
 background_color_class: "bg-red"
