@@ -13,7 +13,7 @@ R&D Engineer with **10 years of experience** at the intersection of **3D, XR tec
   </div>
 </div>
 
-{{< tech_stack_tabs names="AI Development,Programming,Digital Creation,XR Development" >}}
+{{< tech_stack_tabs names="AI Development,Programming,XR Development,Digital Creation" >}}
 
 {{< tech_stack_tab name="AI Development" index="0" >}}
 <div class="tech-subsection">
@@ -116,7 +116,7 @@ R&D Engineer with **10 years of experience** at the intersection of **3D, XR tec
 </div>
 {{< /tech_stack_tab >}}
 
-{{< tech_stack_tab name="Digital Creation" index="2" >}}
+{{< tech_stack_tab name="Digital Creation" index="3" >}}
 <div class="tech-subsection">
 <h3 class="tech-subsection-title">3D</h3>
 <p class="tech-badges">
@@ -157,7 +157,7 @@ R&D Engineer with **10 years of experience** at the intersection of **3D, XR tec
 </div>
 {{< /tech_stack_tab >}}
 
-{{< tech_stack_tab name="XR Development" index="3" >}}
+{{< tech_stack_tab name="XR Development" index="2" >}}
 <div class="tech-subsection">
 <h3 class="tech-subsection-title">Engines</h3>
 <p class="tech-badges">

@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XR on Maëlys Jusseaux</title>
-    <link>https://maelys-jusseaux.com/categories/xr/</link>
+    <link>http://localhost:1313/categories/xr/</link>
     <description>Recent content in XR on Maëlys Jusseaux</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://maelys-jusseaux.com/categories/xr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/xr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Traces</title>
-      <link>https://maelys-jusseaux.com/projects/traces/</link>
+      <link>http://localhost:1313/projects/traces/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/traces/</guid>
+      <guid>http://localhost:1313/projects/traces/</guid>
       <description>&lt;p&gt;&lt;em&gt;Traces&lt;/em&gt; is a project made in the framework of my PhD thesis about XR technologies, art and Cultural Heritage. It&amp;rsquo;s a contemplative experience where you find yourself in a ruined environment, where you have only fragments and hidden elements that allow you to restitute the story of the beings who lived there.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mon Petit Atelier de Destruction du Patrimoine</title>
-      <link>https://maelys-jusseaux.com/projects/padp/</link>
+      <link>http://localhost:1313/projects/padp/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/padp/</guid>
+      <guid>http://localhost:1313/projects/padp/</guid>
       <description>&lt;p&gt;&lt;em&gt;Mon Petit Atelier de Destruction du Patrimoine&lt;/em&gt; (&amp;ldquo;My Little Heritage Destruction Workshop&amp;rdquo;), or PADP for short, is a VR game where you get to visit a virtual museum. You can scan the objects with a tablet, to acquire knowledge about them, grab them to observe them more closely&amp;hellip; and smash them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Minsarcheo</title>
-      <link>https://maelys-jusseaux.com/projects/minsarcheo/</link>
+      <link>http://localhost:1313/projects/minsarcheo/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/minsarcheo/</guid>
+      <guid>http://localhost:1313/projects/minsarcheo/</guid>
       <description>&lt;p&gt;&lt;em&gt;Minsarcheo&lt;/em&gt; was a project made with Opuscope and the Musée d&amp;rsquo;Archéologie Nationale (Océane Duboust, Emily Chambers and Thomas Sagory). The goal was to install digital copies of the objects displayed in the room, in order for people to see them closer and interact with them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mona VR</title>
-      <link>https://maelys-jusseaux.com/projects/monavr/</link>
+      <link>http://localhost:1313/projects/monavr/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/monavr/</guid>
+      <guid>http://localhost:1313/projects/monavr/</guid>
       <description>&lt;p&gt;Since October 2019, the extraordinary fame of Mona Lisa has pushed the Musée du Louvre to implement additional safety measures — visitors now have to queue through barriers to see the painting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alienor</title>
-      <link>https://maelys-jusseaux.com/projects/alienor/</link>
+      <link>http://localhost:1313/projects/alienor/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/alienor/</guid>
+      <guid>http://localhost:1313/projects/alienor/</guid>
       <description>&lt;p&gt;This project was made in the framework of a PhD thesis. It aimed at exploring my own imaginary projected upon the Middle Ages. It&amp;rsquo;s a contemplative experience where you can sit next to Eleanor of Aquitaine, as though she was reading you a story while her minstrels are gently playing music.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Naumachia</title>
-      <link>https://maelys-jusseaux.com/projects/naumachia/</link>
+      <link>http://localhost:1313/projects/naumachia/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/naumachia/</guid>
+      <guid>http://localhost:1313/projects/naumachia/</guid>
       <description>&lt;p&gt;Small AR POC I made with the Minsar application. I reinterpreted the Naumachie of Parc Monceau and tried to see how I could create a pedagogical experience for people to learn about antique naumachias, as well as the modern reinterpretations of antique buildings, such as this naumachia, dating back to the 17th century.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wandering Paintings</title>
-      <link>https://maelys-jusseaux.com/projects/wanderingpaintings/</link>
+      <link>http://localhost:1313/projects/wanderingpaintings/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/wanderingpaintings/</guid>
+      <guid>http://localhost:1313/projects/wanderingpaintings/</guid>
       <description>&lt;p&gt;A POC experimenting with alternative scenographies in museums. I wondered what effect it would have to not visit paintings but be visited by them. Made in Unity for Magic Leap in 2019.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mémoires Gothiques</title>
-      <link>https://maelys-jusseaux.com/projects/memoires/</link>
+      <link>http://localhost:1313/projects/memoires/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/memoires/</guid>
+      <guid>http://localhost:1313/projects/memoires/</guid>
       <description>&lt;p&gt;I created this cathedral in the framework of a master&amp;rsquo;s and later PhD research about augmented and virtual reality applied to Cultural Heritage. This VR application, built in Unity, lets you navigate the different architectural polychromy schemes of a Gothic cathedral — focusing on the 13th and 19th centuries. I worked with art historian Anne Vuillemard-Jenn to restitute as plausible decorative schemes as possible. Alongside the historical reconstructions, I also created &amp;ldquo;emotional&amp;rdquo; décors that try to convey the different receptions and reinterpretations of medieval architecture across both periods.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resilience</title>
-      <link>https://maelys-jusseaux.com/projects/resilience/</link>
+      <link>http://localhost:1313/projects/resilience/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/resilience/</guid>
+      <guid>http://localhost:1313/projects/resilience/</guid>
       <description>&lt;p&gt;&lt;em&gt;Resilience&lt;/em&gt; was created with &lt;strong&gt;Fabienne Bouvier&lt;/strong&gt; and &lt;strong&gt;Chloé Leroux&lt;/strong&gt; as a school project, and was exhibited at the &lt;strong&gt;Centre d&amp;rsquo;Arts d&amp;rsquo;Enghien-les-Bains&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The project takes the form of a virtual exhibition of a fictive artist. Each artwork can be interacted with to reveal traces and echoes of the artist&amp;rsquo;s life — fragments of memory, emotion, and identity embedded in the work itself.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pierrefonds Hololens</title>
-      <link>https://maelys-jusseaux.com/projects/pierrefonds-hololens/</link>
+      <link>http://localhost:1313/projects/pierrefonds-hololens/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/pierrefonds-hololens/</guid>
+      <guid>http://localhost:1313/projects/pierrefonds-hololens/</guid>
       <description>&lt;p&gt;This experimentation was made with the Château de Pierrefonds and Opuscope in November 2017. The goal was to populate the Salle des Preuses with a certain amount of virtual information for the visitors to learn more about this room. It was the first time the HoloLens was proposed to the public in a French museum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dreamcatcher</title>
-      <link>https://maelys-jusseaux.com/projects/dreamcatcher/</link>
+      <link>http://localhost:1313/projects/dreamcatcher/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://maelys-jusseaux.com/projects/dreamcatcher/</guid>
+      <guid>http://localhost:1313/projects/dreamcatcher/</guid>
       <description>&lt;p&gt;&lt;em&gt;Dreamcatcher&lt;/em&gt; was made with &lt;strong&gt;Juliette Schmidt&lt;/strong&gt; and &lt;strong&gt;Thi Nguyen&lt;/strong&gt; as a school project.&lt;/p&gt;&#xA;&lt;p&gt;It is a VR application built in &lt;strong&gt;Unreal Engine&lt;/strong&gt;. The player must flee through several shifting environments. In each one, they must find a mask and physically put it on — literally — in order to escape the entity relentlessly chasing them.&lt;/p&gt;</description>
     </item>
   </channel>
