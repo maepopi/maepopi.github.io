@@ -15,14 +15,9 @@
   weight = 30
 
 [[main]]
-  name = "Communications"
-  pageRef = "communications"
+  name = "Research"
+  pageRef = "research"
   weight = 35
-
-[[main]]
-  name = "Publications"
-  pageRef = "publications"
-  weight = 36
 
 [[main]]
   name = "Contact"
