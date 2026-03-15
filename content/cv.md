@@ -2,21 +2,12 @@
 title: "CV"
 description: "Generative AI · 3D & XR · Computer Vision Research Engineer — Paris, France"
 featured_image: "/img/projects/alienor/fMyHGJ.jpg"
-showTableOfContents: true
+layout: cv
 ---
 
-<p class="mb4">
-  <a href="/pdf/Maelys_2026_pro.pdf" download class="link">📄 Download CV (PDF)</a>
-</p>
+{{< cv_tabs names="Experience,Education,Skills" >}}
 
-<object data="/pdf/Maelys_2026_pro.pdf" type="application/pdf" width="100%" height="800" style="border: 1px solid #5A1818; border-radius: 6px; min-height: 70vh;" title="CV Maëlys Jusseaux">
-  <p>Your browser does not support PDF embedding. <a href="/pdf/Maelys_2026_pro.pdf">Download the CV (PDF)</a>.</p>
-</object>
-
----
-
-## Experience
-
+{{< cv_tab name="Experience" index="0" >}}
 ### 3D & Computer Vision Research Engineer
 **Nfinite SAS** · Paris · `Jul 2022 – Present`
 
@@ -56,11 +47,9 @@ showTableOfContents: true
 
 - Post-production of 3D scans
 - Development of a 3D scan visualisation application for the **Centre Pompidou** (still on display today)
+{{< /cv_tab >}}
 
----
-
-## Education
-
+{{< cv_tab name="Education" index="1" >}}
 ### PhD — Esthétique, Sciences et Technologies des Arts
 **Paris 8** · 2018–2021
 
@@ -80,11 +69,9 @@ Thesis: *The Numinous Heritage Experience* — eliciting transcendence through i
 
 ### Licence — Histoire de l'Art et Archéologie
 **Paris 4 (Sorbonne)** · 2009–2012
+{{< /cv_tab >}}
 
----
-
-## Skills
-
+{{< cv_tab name="Skills" index="2" >}}
 ### AI Development
 
 **Frameworks & Tooling** · PyTorch · TensorFlow · Keras · ComfyUI · Kohya-SS · Gradio · Diffusers · Transformers
@@ -122,3 +109,6 @@ Thesis: *The Numinous Heritage Experience* — eliciting transcendence through i
 **Engines** · Godot · Unity · Unreal Engine
 
 **Hardware** · HoloLens · MagicLeap · Meta Quest/Rift · HTC Vive/Vive Pro · WMR (Lenovo, Dell)
+{{< /cv_tab >}}
+
+{{< /cv_tabs >}}

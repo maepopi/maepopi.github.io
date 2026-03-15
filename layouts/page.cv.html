@@ -1,0 +1,8 @@
+{{ define "header" }}{{ partials.Include "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="mw8 center ph3 ph5-l pv3 pv4-l f4 nested-links near-white">
+      {{- .Content -}}
+    </section>
+  </article>
+{{ end }}

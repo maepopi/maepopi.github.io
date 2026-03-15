@@ -1,0 +1,48 @@
+{{ $names := split (.Get "names") "," }}
+<div class="category-section mb5 cv-tabs-container">
+  <div class="category-separator cv-tab-buttons" role="tablist">
+    {{ range $i, $name := $names }}
+      {{ $id := printf "tab-%d" $i }}
+      <button class="category-label cv-tab-btn {{ if eq $i 0 }}active{{ end }}" role="tab" data-tab="{{ $id }}" aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}">
+        {{ trim $name " " }}
+      </button>
+    {{ end }}
+  </div>
+  <div class="cv-tab-panels">
+    {{ .Inner }}
+  </div>
+</div>
+<script>
+(function() {
+  const container = document.querySelector('.cv-tabs-container');
+  if (!container) return;
+  const buttons = container.querySelectorAll('.cv-tab-btn');
+  const panels = container.querySelectorAll('.cv-tab-panel');
+  buttons.forEach((btn, i) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+      panels.forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      const tabId = btn.getAttribute('data-tab');
+      const panel = container.querySelector(`.cv-tab-panel[data-tab="${tabId}"]`);
+      if (panel) panel.classList.add('active');
+    });
+  });
+  // PDF preview toggle
+  container.querySelectorAll('.cv-pdf-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.getAttribute('aria-controls');
+      const wrapper = id ? document.getElementById(id) : null;
+      if (!wrapper) return;
+      const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+      wrapper.hidden = isExpanded;
+      btn.setAttribute('aria-expanded', !isExpanded);
+      const label = btn.querySelector('.cv-pdf-toggle-label');
+      const arrow = btn.querySelector('.cv-pdf-toggle-arrow');
+      if (label) label.textContent = isExpanded ? 'Show PDF preview' : 'Hide PDF preview';
+      if (arrow) arrow.textContent = isExpanded ? '▼' : '▲';
+    });
+  });
+})();
+</script>
