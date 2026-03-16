@@ -98,7 +98,7 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
   display: grid;
   grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
   grid-template-rows: auto 1fr;
-  row-gap: 1rem;
+  row-gap: 3.5rem;
   column-gap: 3.5rem;
   max-width: 84rem;
   margin-left: auto;
@@ -140,7 +140,7 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
   grid-template-columns: 100px 1fr;
   gap: 1rem;
   align-items: start;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 .home-left .profile-section-compact img       { width: 100px; height: 100px; max-width: 100px; }
 .home-left .profile-section-compact > div p   { font-size: 1.1rem; margin: 0.25em 0; }
