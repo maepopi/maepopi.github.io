@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI &amp; Tools on Maëlys Jusseaux</title>
-    <link>http://localhost:1313/categories/ai--tools/</link>
+    <link>https://maelys-jusseaux.com/categories/ai--tools/</link>
     <description>Recent content in AI &amp; Tools on Maëlys Jusseaux</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/ai--tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maelys-jusseaux.com/categories/ai--tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audio Dataset Manager</title>
-      <link>http://localhost:1313/projects/audio-dataset-manager/</link>
+      <link>https://maelys-jusseaux.com/projects/audio-dataset-manager/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/audio-dataset-manager/</guid>
+      <guid>https://maelys-jusseaux.com/projects/audio-dataset-manager/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Audio Dataset Manager&lt;/strong&gt; is a comprehensive toolkit designed to streamline the preparation of audio datasets for TTS (Text-to-Speech) training and voice cloning projects.&lt;/p&gt;&#xA;&lt;p&gt;Born from the need to efficiently process dozens of hours of audiobook data for voice cloning, this tool bridges the gap between raw audio files and training-ready datasets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Diffusers in ComfyUI</title>
-      <link>http://localhost:1313/projects/diffusers-in-comfyui/</link>
+      <link>https://maelys-jusseaux.com/projects/diffusers-in-comfyui/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/diffusers-in-comfyui/</guid>
+      <guid>https://maelys-jusseaux.com/projects/diffusers-in-comfyui/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Diffusers in ComfyUI&lt;/strong&gt; is a custom node that integrates the Hugging Face Diffusers pipeline directly into ComfyUI. Available through ComfyUI Manager and the Comfy Registry.&lt;/p&gt;&#xA;&lt;p&gt;Supports txt2img, img2img, inpainting, LoRA, and BLoRA workflows across SD 1.5 and SDXL models.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Decimator</title>
-      <link>http://localhost:1313/projects/decimator/</link>
+      <link>https://maelys-jusseaux.com/projects/decimator/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/decimator/</guid>
+      <guid>https://maelys-jusseaux.com/projects/decimator/</guid>
       <description>&lt;p&gt;This is a project that was developed originally for museums to be able to quickly optimize their digital collections in order to present them in virtual environments (XR mostly). With time, it got bigger and bigger, and I recently endeavoured to rewrite the code entirely. Indeed, this project having started in 2018, my coding skills then were still young, and I was not very good at architecture. That has changed a lot today, so a new version will hopefully come along soon!&lt;/p&gt;</description>
     </item>
   </channel>
