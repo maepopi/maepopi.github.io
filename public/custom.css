@@ -79,6 +79,7 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
   margin-bottom: 1.25rem;
   grid-template-columns: 100px 1fr;
   gap: 1rem;
+  align-items: start;
 }
 .home-left .profile-section-compact img {
   width: 100px;
