@@ -115,11 +115,9 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
   font-size: 0.8rem !important;
   padding: 0.2rem 0.5rem !important;
 }
-.home-projects-tabs .cv-tab-panel {
-  padding-left: 0.75rem;
-}
 .home-projects-tabs .project-card-compact {
   border-bottom-color: #3A1010;
+  padding-left: 0.75rem;
 }
 .home-projects-tabs .project-card-compact:last-child {
   border-bottom: none;
