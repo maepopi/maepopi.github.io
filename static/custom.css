@@ -11,8 +11,8 @@ input, textarea, button, select, label,
 }
 
 /* ── Dark warm background ───────────────────────── */
-.bg-near-black { background-color: #140404 !important; }
-body { background-color: #140404; color: #F5E8D5; }
+.bg-near-black { background-color: #040000 !important; }
+body { background-color: #040000; color: #F5E8D5; }
 
 /* ── Warm header/hero backgrounds ──────────────── */
 .bg-dark-red { background-color: #7A1508 !important; }
