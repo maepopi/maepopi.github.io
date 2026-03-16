@@ -157,7 +157,7 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
 .home-projects-tabs .section-heading { margin-bottom: 0.5rem; }
 .home-projects-tabs .category-separator.cv-tab-buttons { margin-bottom: 1rem; }
 .home-left .tech-tabs-container .cv-tab-panels {
-  margin-top: 2.75rem; /* matches "Some projects..." + tab buttons height so tech box aligns with project cards */
+  margin-top: 2.80rem; /* matches "Some projects..." + tab buttons height so tech box aligns with project cards */
 }
 
 /* Home projects */
@@ -167,6 +167,7 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
   background: #2E3450;
   border: 1px solid rgba(110, 125, 154, 0.18) !important;
   border-radius: 8px;
+  margin-top : 0.0008rem;
   padding-left: 0.75rem;
   margin-bottom: 0.5rem;
   box-shadow: none;

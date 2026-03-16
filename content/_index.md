@@ -8,7 +8,7 @@ featured_image: "/img/hero.jpg"
   <img src="/img/prof_pic.png" alt="Maëlys Jusseaux">
   <div>
 
-R&D Engineer with **10 years of experience** at the intersection of **3D, XR technologies and Artificial Intelligence**. Currently at [Nfinite](https://nfinite.app), I design and deploy large-scale production pipelines combining generative AI, computer vision and 3D.
+Research Engineer with **10 years experience** in **3D, XR technologies and Artificial Intelligence**. I design, develop and deploy **large-scale**, **production-ready pipelines** by combining innovative solutions across AI, computer vision, and 3D (automated model training systems, image to 3D pipelines). Highly **adaptable** and **fast-learning**, I bring a versatile profile with **strong technical depth**. I also have solid **interpersonal skills**, enabling effective **team coordination**, and successful **project leadership**.
 
   </div>
 </div>
