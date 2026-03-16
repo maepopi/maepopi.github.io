@@ -69,9 +69,10 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
   display: flex;
   flex-direction: column;
   flex: 1;
+  margin-bottom: 0 !important;
 }
-.home-right .home-projects-tabs .cv-tab-panels {
-  flex: 1;
+.home-right .home-projects-tabs > section {
+  margin-top: auto;
 }
 /* Home: compact profile and tech stack */
 .home-left .profile-section-compact {
