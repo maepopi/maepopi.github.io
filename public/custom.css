@@ -26,13 +26,13 @@ body           { background-color: #22263A; color: #E8EBF2; }
 
 /* ── Nav ────────────────────────────────────────── */
 .bg-dark-red {
-  background-color: #C21230 !important;
+  background-color: rgba(194, 18, 48, 0.65) !important;
   border-bottom: 1px solid rgba(110, 125, 154, 0.20) !important;
   box-shadow: none !important;
 }
-.bg-red    { background-color: #C21230 !important; }
-.bg-gold   { background-color: #C21230 !important; }
-.bg-orange { background-color: #C21230 !important; }
+.bg-red    { background-color: rgba(194, 18, 48, 0.65) !important; }
+.bg-gold   { background-color: rgba(194, 18, 48, 0.65) !important; }
+.bg-orange { background-color: rgba(194, 18, 48, 0.65) !important; }
 header nav a, header nav a.white-90, header nav a.hover-white {
   color: #E8EBF2 !important;
 }
@@ -370,10 +370,7 @@ footer.bg-dark-red,
 footer.bg-red,
 footer.bg-gold,
 footer.bg-orange {
-  background-image: linear-gradient(rgba(194, 18, 48, 0.62), rgba(194, 18, 48, 0.62)), url('/img/hero.jpg') !important;
-  background-size: cover !important;
-  background-position: bottom center !important;
-  background-color: transparent !important;
+  background-color: rgba(194, 18, 48, 0.55) !important;
   color: #E8EBF2 !important;
   border-top: none;
 }
