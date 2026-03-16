@@ -32,6 +32,12 @@
             {{ $id := printf "projects-tab-%d" $i }}
             {{ $inCat := where $pages ".Params.categories" "intersect" (slice $cat) }}
             <div class="cv-tab-panel {{ if eq $i 0 }}active{{ end }}" data-tab="{{ $id }}" role="tabpanel">
+              {{ if eq $cat "AI & Tools" }}
+              <p class="projects-disclaimer f6 i mb4 pa3">
+                For confidentiality reasons, I unfortunately cannot disclose most of the projects I worked on these past four years. The projects shown here 
+                are mostly projects made on my personal time. 
+              </p>
+              {{ end }}
               {{ range $inCat }}
                 <div class="w-100 mb4 relative">
                   {{ .Render "summary-with-image" }}

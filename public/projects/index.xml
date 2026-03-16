@@ -1,166 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on Maëlys Jusseaux</title>
-    <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects on Maëlys Jusseaux</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Audio Dataset Manager</title>
-      <link>http://localhost:1313/projects/audio-dataset-manager/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/audio-dataset-manager/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Audio Dataset Manager&lt;/strong&gt; is a comprehensive toolkit designed to streamline the preparation of audio datasets for TTS (Text-to-Speech) training and voice cloning projects.&lt;/p&gt;&#xA;&lt;p&gt;Born from the need to efficiently process dozens of hours of audiobook data for voice cloning, this tool bridges the gap between raw audio files and training-ready datasets.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Diffusers in ComfyUI</title>
-      <link>http://localhost:1313/projects/diffusers-in-comfyui/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/diffusers-in-comfyui/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Diffusers in ComfyUI&lt;/strong&gt; is a custom node that integrates the Hugging Face Diffusers pipeline directly into ComfyUI. Available through ComfyUI Manager and the Comfy Registry.&lt;/p&gt;&#xA;&lt;p&gt;Supports txt2img, img2img, inpainting, LoRA, and BLoRA workflows across SD 1.5 and SDXL models.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Traces</title>
-      <link>http://localhost:1313/projects/traces/</link>
-      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/traces/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Traces&lt;/em&gt; is a project made in the framework of my PhD thesis about XR technologies, art and Cultural Heritage. It&amp;rsquo;s a contemplative experience where you find yourself in a ruined environment, where you have only fragments and hidden elements that allow you to restitute the story of the beings who lived there.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Light Manager</title>
-      <link>http://localhost:1313/projects/lightmanager/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/lightmanager/</guid>
-      <description>&lt;p&gt;A POC made in Unity to play around with lighting management in AR and VR. Developed for Hololens and WMR headsets, I experimented with different scenographies of famous works of arts such as the Laocoon. Through playing with lights and colors in realtime, I tried to experiment around the expressive and artistic reinterpretation of a work of art through light.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fx Manager</title>
-      <link>http://localhost:1313/projects/fxmanager/</link>
-      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/fxmanager/</guid>
-      <description>&lt;p&gt;A POC made in Unity for Hololens. Through this POC, I enjoyed playing around the superimposition of visual effects on the real world.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;div style=&#34;max-width: 560px; margin: 1rem auto;&#34;&gt;&#xA;  &lt;video controls style=&#34;width: 100%; border-radius: 4px;&#34;&gt;&#xA;    &lt;source src=&#34;http://localhost:1313/assets/video/fxmanager/FxManager.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;  &lt;/video&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Eira&#39;s Potions for the Lost</title>
-      <link>http://localhost:1313/projects/eiras_potions/</link>
-      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/eiras_potions/</guid>
-      <description>&lt;p&gt;Help lost souls to find themselves, by aiding them in their personal struggles.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Talk to the ghost.&lt;/li&gt;&#xA;&lt;li&gt;Pick up ingredients.&lt;/li&gt;&#xA;&lt;li&gt;Make your potion in the cauldron.&lt;/li&gt;&#xA;&lt;li&gt;Give the ghost its potion.&lt;/li&gt;&#xA;&lt;li&gt;Repeat. There are 5 ghosts to help.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Made in 48h with &lt;a href=&#34;https://glitchoris.itch.io&#34;&gt;Charlotte RGB&lt;/a&gt; for &lt;a href=&#34;https://globalgamejam.org/2021/&#34;&gt;Global Game Jam 2021&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mon Petit Atelier de Destruction du Patrimoine</title>
-      <link>http://localhost:1313/projects/padp/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/padp/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Mon Petit Atelier de Destruction du Patrimoine&lt;/em&gt; (&amp;ldquo;My Little Heritage Destruction Workshop&amp;rdquo;), or PADP for short, is a VR game where you get to visit a virtual museum. You can scan the objects with a tablet, to acquire knowledge about them, grab them to observe them more closely&amp;hellip; and smash them.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Minsarcheo</title>
-      <link>http://localhost:1313/projects/minsarcheo/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/minsarcheo/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Minsarcheo&lt;/em&gt; was a project made with Opuscope and the Musée d&amp;rsquo;Archéologie Nationale (Océane Duboust, Emily Chambers and Thomas Sagory). The goal was to install digital copies of the objects displayed in the room, in order for people to see them closer and interact with them.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mona VR</title>
-      <link>http://localhost:1313/projects/monavr/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/monavr/</guid>
-      <description>&lt;p&gt;Since October 2019, the extraordinary fame of Mona Lisa has pushed the Musée du Louvre to implement additional safety measures — visitors now have to queue through barriers to see the painting.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kintsukuroi</title>
-      <link>http://localhost:1313/projects/kintsukuroi/</link>
-      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/kintsukuroi/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Kintsukuroi&lt;/em&gt; is the Japanese art of repairing broken pottery by mending it with gold, to display the object&amp;rsquo;s history rather than hiding it by fixing it back to its original state.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Alienor</title>
-      <link>http://localhost:1313/projects/alienor/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/alienor/</guid>
-      <description>&lt;p&gt;This project was made in the framework of a PhD thesis. It aimed at exploring my own imaginary projected upon the Middle Ages. It&amp;rsquo;s a contemplative experience where you can sit next to Eleanor of Aquitaine, as though she was reading you a story while her minstrels are gently playing music.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Naumachia</title>
-      <link>http://localhost:1313/projects/naumachia/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/naumachia/</guid>
-      <description>&lt;p&gt;Small AR POC I made with the Minsar application. I reinterpreted the Naumachie of Parc Monceau and tried to see how I could create a pedagogical experience for people to learn about antique naumachias, as well as the modern reinterpretations of antique buildings, such as this naumachia, dating back to the 17th century.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Magic Leapotter</title>
-      <link>http://localhost:1313/projects/magicleapotter/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/magicleapotter/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Magic Leapotter&lt;/strong&gt; is a small POC I made during my PhD thesis when I had access to a Magic Leap One. I made this to study and understand how hand tracking worked in Magic Leap One. The headset doesn&amp;rsquo;t detect the wand of course, so I simply added an offset for the particles to give the illusion of following the wand tip. Made with Unity.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cosy</title>
-      <link>http://localhost:1313/projects/cosy/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cosy/</guid>
-      <description>&lt;p&gt;This is a game about being nice and cosy at home.&lt;/p&gt;&#xA;&lt;p&gt;The player can do several different activities: change their clothing (well, their onesie), play a horror video game, browse the web, drink some hot tea, or read a whole book. Or maybe not the whole thing — there&amp;rsquo;s a bookmark system to pick up where you left off.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Decimator</title>
-      <link>http://localhost:1313/projects/decimator/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/decimator/</guid>
-      <description>&lt;p&gt;This is a project that was developed originally for museums to be able to quickly optimize their digital collections in order to present them in virtual environments (XR mostly). With time, it got bigger and bigger, and I recently endeavoured to rewrite the code entirely. Indeed, this project having started in 2018, my coding skills then were still young, and I was not very good at architecture. That has changed a lot today, so a new version will hopefully come along soon!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Wandering Paintings</title>
-      <link>http://localhost:1313/projects/wanderingpaintings/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/wanderingpaintings/</guid>
-      <description>&lt;p&gt;A POC experimenting with alternative scenographies in museums. I wondered what effect it would have to not visit paintings but be visited by them. Made in Unity for Magic Leap in 2019.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mémoires Gothiques</title>
-      <link>http://localhost:1313/projects/memoires/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/memoires/</guid>
-      <description>&lt;p&gt;I created this cathedral in the framework of a master&amp;rsquo;s and later PhD research about augmented and virtual reality applied to Cultural Heritage. This VR application, built in Unity, lets you navigate the different architectural polychromy schemes of a Gothic cathedral — focusing on the 13th and 19th centuries. I worked with art historian Anne Vuillemard-Jenn to restitute as plausible decorative schemes as possible. Alongside the historical reconstructions, I also created &amp;ldquo;emotional&amp;rdquo; décors that try to convey the different receptions and reinterpretations of medieval architecture across both periods.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Resilience</title>
-      <link>http://localhost:1313/projects/resilience/</link>
-      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/resilience/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Resilience&lt;/em&gt; was created with &lt;strong&gt;Fabienne Bouvier&lt;/strong&gt; and &lt;strong&gt;Chloé Leroux&lt;/strong&gt; as a school project, and was exhibited at the &lt;strong&gt;Centre d&amp;rsquo;Arts d&amp;rsquo;Enghien-les-Bains&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The project takes the form of a virtual exhibition of a fictive artist. Each artwork can be interacted with to reveal traces and echoes of the artist&amp;rsquo;s life — fragments of memory, emotion, and identity embedded in the work itself.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Harmonics</title>
-      <link>http://localhost:1313/projects/harmonics/</link>
-      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/harmonics/</guid>
-      <description>&lt;p&gt;Harmonics is a contemplative game made in 48h for &lt;a href=&#34;https://globalgamejam.org/2018/&#34;&gt;Global Game Jam 2018&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You play as a pair of forest spirits that can explore various places on a magical floating island, and awaken flowers by singing to them. Flowers may awaken other flowers in turn, and cause chain reactions.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Pierrefonds Hololens</title>
-      <link>http://localhost:1313/projects/pierrefonds-hololens/</link>
-      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pierrefonds-hololens/</guid>
-      <description>&lt;p&gt;This experimentation was made with the Château de Pierrefonds and Opuscope in November 2017. The goal was to populate the Salle des Preuses with a certain amount of virtual information for the visitors to learn more about this room. It was the first time the HoloLens was proposed to the public in a French museum.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dreamcatcher</title>
-      <link>http://localhost:1313/projects/dreamcatcher/</link>
-      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/dreamcatcher/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Dreamcatcher&lt;/em&gt; was made with &lt;strong&gt;Juliette Schmidt&lt;/strong&gt; and &lt;strong&gt;Thi Nguyen&lt;/strong&gt; as a school project.&lt;/p&gt;&#xA;&lt;p&gt;It is a VR application built in &lt;strong&gt;Unreal Engine&lt;/strong&gt;. The player must flee through several shifting environments. In each one, they must find a mask and physically put it on — literally — in order to escape the entity relentlessly chasing them.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Merveilles de l&#39;Atelier d&#39;André Breton</title>
-      <link>http://localhost:1313/projects/merveilles/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/merveilles/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Merveilles de l&amp;rsquo;Atelier d&amp;rsquo;André Breton&lt;/em&gt; is a Unity application made in collaboration with the &lt;strong&gt;Association André Breton&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;A selection of objects from André Breton&amp;rsquo;s personal studio were &lt;strong&gt;3D scanned, optimized and integrated&lt;/strong&gt; into an interactive Unity application. The application is currently &lt;strong&gt;exhibited at the Centre Pompidou&lt;/strong&gt; in Paris. The 3D models are also available on my &lt;a href=&#34;https://sketchfab.com/MaelysJusseaux&#34;&gt;Sketchfab account&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Maëlys Jusseaux</title><link>https://maelys-jusseaux.com/projects/</link><description>Recent content in Projects on Maëlys Jusseaux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://maelys-jusseaux.com/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Audio Dataset Manager</title><link>https://maelys-jusseaux.com/projects/audio-dataset-manager/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/audio-dataset-manager/</guid><description>&lt;p&gt;&lt;strong&gt;Audio Dataset Manager&lt;/strong&gt; is a comprehensive toolkit designed to streamline the preparation of audio datasets for TTS (Text-to-Speech) training and voice cloning projects.&lt;/p&gt;
+&lt;p&gt;Born from the need to efficiently process dozens of hours of audiobook data for voice cloning, this tool bridges the gap between raw audio files and training-ready datasets.&lt;/p&gt;</description></item><item><title>Diffusers in ComfyUI</title><link>https://maelys-jusseaux.com/projects/diffusers-in-comfyui/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/diffusers-in-comfyui/</guid><description>&lt;p&gt;&lt;strong&gt;Diffusers in ComfyUI&lt;/strong&gt; is a custom node that integrates the Hugging Face Diffusers pipeline directly into ComfyUI. Available through ComfyUI Manager and the Comfy Registry.&lt;/p&gt;
+&lt;p&gt;Supports txt2img, img2img, inpainting, LoRA, and BLoRA workflows across SD 1.5 and SDXL models.&lt;/p&gt;</description></item><item><title>Traces</title><link>https://maelys-jusseaux.com/projects/traces/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/traces/</guid><description>&lt;p&gt;&lt;em&gt;Traces&lt;/em&gt; is a project made in the framework of my PhD thesis about XR technologies, art and Cultural Heritage. It&amp;rsquo;s a contemplative experience where you find yourself in a ruined environment, where you have only fragments and hidden elements that allow you to restitute the story of the beings who lived there.&lt;/p&gt;</description></item><item><title>Light Manager</title><link>https://maelys-jusseaux.com/projects/lightmanager/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/lightmanager/</guid><description>&lt;p&gt;A POC made in Unity to play around with lighting management in AR and VR. Developed for Hololens and WMR headsets, I experimented with different scenographies of famous works of arts such as the Laocoon. Through playing with lights and colors in realtime, I tried to experiment around the expressive and artistic reinterpretation of a work of art through light.&lt;/p&gt;</description></item><item><title>Fx Manager</title><link>https://maelys-jusseaux.com/projects/fxmanager/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/fxmanager/</guid><description>&lt;p&gt;A POC made in Unity for Hololens. Through this POC, I enjoyed playing around the superimposition of visual effects on the real world.&lt;/p&gt;
+
+
+&lt;div style="max-width: 560px; margin: 1rem auto;"&gt;
+ &lt;video controls style="width: 100%; border-radius: 4px;"&gt;
+ &lt;source src="https://maelys-jusseaux.com/assets/video/fxmanager/FxManager.mp4" type="video/mp4"&gt;
+ &lt;/video&gt;
+&lt;/div&gt;</description></item><item><title>Eira's Potions for the Lost</title><link>https://maelys-jusseaux.com/projects/eiras_potions/</link><pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/eiras_potions/</guid><description>&lt;p&gt;Help lost souls to find themselves, by aiding them in their personal struggles.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Talk to the ghost.&lt;/li&gt;
+&lt;li&gt;Pick up ingredients.&lt;/li&gt;
+&lt;li&gt;Make your potion in the cauldron.&lt;/li&gt;
+&lt;li&gt;Give the ghost its potion.&lt;/li&gt;
+&lt;li&gt;Repeat. There are 5 ghosts to help.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Made in 48h with &lt;a href="https://glitchoris.itch.io"&gt;Charlotte RGB&lt;/a&gt; for &lt;a href="https://globalgamejam.org/2021/"&gt;Global Game Jam 2021&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Mon Petit Atelier de Destruction du Patrimoine</title><link>https://maelys-jusseaux.com/projects/padp/</link><pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/padp/</guid><description>&lt;p&gt;&lt;em&gt;Mon Petit Atelier de Destruction du Patrimoine&lt;/em&gt; (&amp;ldquo;My Little Heritage Destruction Workshop&amp;rdquo;), or PADP for short, is a VR game where you get to visit a virtual museum. You can scan the objects with a tablet, to acquire knowledge about them, grab them to observe them more closely&amp;hellip; and smash them.&lt;/p&gt;</description></item><item><title>Minsarcheo</title><link>https://maelys-jusseaux.com/projects/minsarcheo/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/minsarcheo/</guid><description>&lt;p&gt;&lt;em&gt;Minsarcheo&lt;/em&gt; was a project made with Opuscope and the Musée d&amp;rsquo;Archéologie Nationale (Océane Duboust, Emily Chambers and Thomas Sagory). The goal was to install digital copies of the objects displayed in the room, in order for people to see them closer and interact with them.&lt;/p&gt;</description></item><item><title>Mona VR</title><link>https://maelys-jusseaux.com/projects/monavr/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/monavr/</guid><description>&lt;p&gt;Since October 2019, the extraordinary fame of Mona Lisa has pushed the Musée du Louvre to implement additional safety measures — visitors now have to queue through barriers to see the painting.&lt;/p&gt;</description></item><item><title>Kintsukuroi</title><link>https://maelys-jusseaux.com/projects/kintsukuroi/</link><pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/kintsukuroi/</guid><description>&lt;p&gt;&lt;em&gt;Kintsukuroi&lt;/em&gt; is the Japanese art of repairing broken pottery by mending it with gold, to display the object&amp;rsquo;s history rather than hiding it by fixing it back to its original state.&lt;/p&gt;</description></item><item><title>Alienor</title><link>https://maelys-jusseaux.com/projects/alienor/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/alienor/</guid><description>&lt;p&gt;This project was made in the framework of a PhD thesis. It aimed at exploring my own imaginary projected upon the Middle Ages. It&amp;rsquo;s a contemplative experience where you can sit next to Eleanor of Aquitaine, as though she was reading you a story while her minstrels are gently playing music.&lt;/p&gt;</description></item><item><title>Naumachia</title><link>https://maelys-jusseaux.com/projects/naumachia/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/naumachia/</guid><description>&lt;p&gt;Small AR POC I made with the Minsar application. I reinterpreted the Naumachie of Parc Monceau and tried to see how I could create a pedagogical experience for people to learn about antique naumachias, as well as the modern reinterpretations of antique buildings, such as this naumachia, dating back to the 17th century.&lt;/p&gt;</description></item><item><title>Magic Leapotter</title><link>https://maelys-jusseaux.com/projects/magicleapotter/</link><pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/magicleapotter/</guid><description>&lt;p&gt;&lt;strong&gt;Magic Leapotter&lt;/strong&gt; is a small POC I made during my PhD thesis when I had access to a Magic Leap One. I made this to study and understand how hand tracking worked in Magic Leap One. The headset doesn&amp;rsquo;t detect the wand of course, so I simply added an offset for the particles to give the illusion of following the wand tip. Made with Unity.&lt;/p&gt;</description></item><item><title>Cosy</title><link>https://maelys-jusseaux.com/projects/cosy/</link><pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/cosy/</guid><description>&lt;p&gt;This is a game about being nice and cosy at home.&lt;/p&gt;
+&lt;p&gt;The player can do several different activities: change their clothing (well, their onesie), play a horror video game, browse the web, drink some hot tea, or read a whole book. Or maybe not the whole thing — there&amp;rsquo;s a bookmark system to pick up where you left off.&lt;/p&gt;</description></item><item><title>Decimator</title><link>https://maelys-jusseaux.com/projects/decimator/</link><pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/decimator/</guid><description>&lt;p&gt;This is a project that was developed originally for museums to be able to quickly optimize their digital collections in order to present them in virtual environments (XR mostly). With time, it got bigger and bigger, and I recently endeavoured to rewrite the code entirely. Indeed, this project having started in 2018, my coding skills then were still young, and I was not very good at architecture. That has changed a lot today, so a new version will hopefully come along soon!&lt;/p&gt;</description></item><item><title>Wandering Paintings</title><link>https://maelys-jusseaux.com/projects/wanderingpaintings/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/wanderingpaintings/</guid><description>&lt;p&gt;A POC experimenting with alternative scenographies in museums. I wondered what effect it would have to not visit paintings but be visited by them. Made in Unity for Magic Leap in 2019.&lt;/p&gt;</description></item><item><title>Mémoires Gothiques</title><link>https://maelys-jusseaux.com/projects/memoires/</link><pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/memoires/</guid><description>&lt;p&gt;I created this cathedral in the framework of a master&amp;rsquo;s and later PhD research about augmented and virtual reality applied to Cultural Heritage. This VR application, built in Unity, lets you navigate the different architectural polychromy schemes of a Gothic cathedral — focusing on the 13th and 19th centuries. I worked with art historian Anne Vuillemard-Jenn to restitute as plausible decorative schemes as possible. Alongside the historical reconstructions, I also created &amp;ldquo;emotional&amp;rdquo; décors that try to convey the different receptions and reinterpretations of medieval architecture across both periods.&lt;/p&gt;</description></item><item><title>Resilience</title><link>https://maelys-jusseaux.com/projects/resilience/</link><pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/resilience/</guid><description>&lt;p&gt;&lt;em&gt;Resilience&lt;/em&gt; was created with &lt;strong&gt;Fabienne Bouvier&lt;/strong&gt; and &lt;strong&gt;Chloé Leroux&lt;/strong&gt; as a school project, and was exhibited at the &lt;strong&gt;Centre d&amp;rsquo;Arts d&amp;rsquo;Enghien-les-Bains&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The project takes the form of a virtual exhibition of a fictive artist. Each artwork can be interacted with to reveal traces and echoes of the artist&amp;rsquo;s life — fragments of memory, emotion, and identity embedded in the work itself.&lt;/p&gt;</description></item><item><title>Harmonics</title><link>https://maelys-jusseaux.com/projects/harmonics/</link><pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/harmonics/</guid><description>&lt;p&gt;Harmonics is a contemplative game made in 48h for &lt;a href="https://globalgamejam.org/2018/"&gt;Global Game Jam 2018&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You play as a pair of forest spirits that can explore various places on a magical floating island, and awaken flowers by singing to them. Flowers may awaken other flowers in turn, and cause chain reactions.&lt;/p&gt;</description></item><item><title>Pierrefonds Hololens</title><link>https://maelys-jusseaux.com/projects/pierrefonds-hololens/</link><pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/pierrefonds-hololens/</guid><description>&lt;p&gt;This experimentation was made with the Château de Pierrefonds and Opuscope in November 2017. The goal was to populate the Salle des Preuses with a certain amount of virtual information for the visitors to learn more about this room. It was the first time the HoloLens was proposed to the public in a French museum.&lt;/p&gt;</description></item><item><title>Dreamcatcher</title><link>https://maelys-jusseaux.com/projects/dreamcatcher/</link><pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/dreamcatcher/</guid><description>&lt;p&gt;&lt;em&gt;Dreamcatcher&lt;/em&gt; was made with &lt;strong&gt;Juliette Schmidt&lt;/strong&gt; and &lt;strong&gt;Thi Nguyen&lt;/strong&gt; as a school project.&lt;/p&gt;
+&lt;p&gt;It is a VR application built in &lt;strong&gt;Unreal Engine&lt;/strong&gt;. The player must flee through several shifting environments. In each one, they must find a mask and physically put it on — literally — in order to escape the entity relentlessly chasing them.&lt;/p&gt;</description></item><item><title>Merveilles de l'Atelier d'André Breton</title><link>https://maelys-jusseaux.com/projects/merveilles/</link><pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate><guid>https://maelys-jusseaux.com/projects/merveilles/</guid><description>&lt;p&gt;&lt;em&gt;Merveilles de l&amp;rsquo;Atelier d&amp;rsquo;André Breton&lt;/em&gt; is a Unity application made in collaboration with the &lt;strong&gt;Association André Breton&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A selection of objects from André Breton&amp;rsquo;s personal studio were &lt;strong&gt;3D scanned, optimized and integrated&lt;/strong&gt; into an interactive Unity application. The application is currently &lt;strong&gt;exhibited at the Centre Pompidou&lt;/strong&gt; in Paris. The 3D models are also available on my &lt;a href="https://sketchfab.com/MaelysJusseaux"&gt;Sketchfab account&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

@@ -178,6 +178,14 @@ body.is-home main { max-width: 90rem; padding-left: 2.5rem; padding-right: 2.5re
 }
 .home-projects-tabs .project-card-compact:last-child { border-bottom: none; margin-bottom: 0; }
 
+/* Projects page: AI & Tools disclaimer */
+.projects-disclaimer {
+  background: rgba(110, 125, 154, 0.15);
+  border-left: 3px solid #E82830;
+  border-radius: 4px;
+  color: #6E7D9A;
+}
+
 @media (max-width: 1100px) {
   .home-two-column {
     grid-template-columns: 1fr;
