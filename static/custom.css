@@ -520,7 +520,7 @@ header nav a.f3 { display: none !important; }
     max-width: 120px !important; max-height: 120px !important;
     border-radius: 50% !important;
   }
-  .profile-section > div { display: block !important; width: 100% !important; text-align: left !important; }
+  .profile-section > div { display: block !important; width: 100% !important; text-align: justify !important; -webkit-text-align-last: left; text-align-last: left; }
   .tech-stack-section    { padding: 1rem !important; margin-left: -0.5rem !important; margin-right: -0.5rem !important; border-radius: 6px !important; }
   .tech-stack-section h2 { font-size: 1.1rem !important; }
   .tech-category h3      { font-size: 0.8rem !important; }
