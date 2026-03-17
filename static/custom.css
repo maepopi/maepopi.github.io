@@ -302,8 +302,9 @@ article.bb .nested-copy-line-height p:last-child  { margin-bottom: 0; }
   border-radius: 8px;
   border: 1px solid rgba(110, 125, 154, 0.18) !important;
 }
-.research-category-content h3              { margin-top: 1.5rem; margin-bottom: 0.5rem; color: #E8EBF2; }
+.research-category-content h3              { margin-top: 1.5rem; margin-bottom: 0.5rem; color: #E8EBF2; line-height: 1.35; text-align: justify; }
 .research-category-content h3:first-of-type { margin-top: 0; }
+.research-category-content h3 + p         { white-space: nowrap; text-align: left; margin-top: 0.25rem; margin-bottom: 0.75rem; font-size: clamp(0.6rem, 2.8vw, 0.95rem); }
 .research-category-content p               { margin-top: 0.5rem; margin-bottom: 1rem; text-align: justify; }
 .research-category-content a               { color: #E82830; }
 .research-category-content a:hover         { color: #C21230; }
